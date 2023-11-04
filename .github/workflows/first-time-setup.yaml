@@ -57,10 +57,10 @@ jobs:
             .github/ISSUE_TEMPLATE \
             .github/workflows/versioning.yaml \
             .github/pull_request_template.md \
-      
-#       - name: Rename files
-#         run: |
-#           mv .github/user_pull_request_template.md .github/pull_request_template.md
+
+      #       - name: Rename files
+      #         run: |
+      #           mv .github/user_pull_request_template.md .github/pull_request_template.md
 
       - name: Set vars for personalization
         run: |
@@ -75,9 +75,6 @@ jobs:
           # ${{ env.USER }}'s Website
 
           Visit **[website url](#)** 🚀
-
-          _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
-          " > README.md
 
       - name: Personalize Jekyll config for user
         uses: actions/github-script@v6

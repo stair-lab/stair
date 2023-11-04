@@ -1,7 +1,7 @@
 ---
 name: Sudharsan Sundar
 image: images/sudharsan_sundar.png
-role: phd_students
+role: master
 links:
   email: sarah.johnson@gmail.com
   twitter: sarahjohnson

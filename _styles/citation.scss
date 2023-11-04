@@ -14,9 +14,10 @@ $wrap: 800px;
 }
 
 .citation-image {
-  position: relative;
-  width: $thumb-size;
-  flex-shrink: 0;
+  display: none;
+  // position: relative;
+  // width: $thumb-size;
+  // flex-shrink: 0;
   // box-shadow: var(--shadow);
 }
 

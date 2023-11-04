@@ -1,11 +1,8 @@
 ---
-name: John Doe
-image: images/placeholder.png
-role: undecided
+name: Christopher Settles
+image: images/christopher.png
+role: alu_ms
 links:
   email: email@address.com
   twitter: johndoe
-  home-page: https://sites.google.com/view/pcisnerosv
 ---
-
-Placeholder Text
