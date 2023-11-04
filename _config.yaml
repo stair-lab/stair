@@ -9,12 +9,8 @@ url: /
 baseurl: /
 # site social media and other links
 links:
-  email: contact@STAIR.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
-  github: STAIR
-  twitter: STAIR
-  youtube: STAIR
+  github: koyejo-lab
+  twitter: sangttruong
 
 ### jekyll settings
 

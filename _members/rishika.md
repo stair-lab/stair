@@ -1,8 +1,8 @@
 ---
-name: Haroun Habeeb
-image: images/haroun.png
+name: Rishika Agarwal
+image: images/rishika.png
 role: alu_ms
 links:
   email: email@address.com
-  linkedin: https://www.linkedin.com/in/haroun-habeeb-7517089a/
+  linkedin: https://www.linkedin.com/in/rishikaiitk/
 ---

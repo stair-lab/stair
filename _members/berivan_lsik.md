@@ -1,7 +1,7 @@
 ---
 name: Berivan Isik
 image: images/berivan_lsik.png
-role: phd
+role: phd_students
 links:
   home-page: https://sites.google.com/view/berivanisik
   orcid: 0000-0001-8713-9213
