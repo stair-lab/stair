@@ -1,6 +1,6 @@
 ---
 name: Pedro Cisneros-Velarde
-image: images/pedro_cisneros_velarde.jpg
+image: images/pedro_cisneros_velarde.png
 role: postdocs
 links:
   home-page: https://sites.google.com/view/pcisnerosv

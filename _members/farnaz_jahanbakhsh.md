@@ -1,6 +1,6 @@
 ---
 name: Farnaz Jahanbakhsh
-image: images/farnaz.png
+image: images/farnaz_jahanbakhsh.png
 role: postdocs
 links:
   email: sarah.johnson@gmail.com

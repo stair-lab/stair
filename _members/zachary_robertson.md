@@ -1,6 +1,6 @@
 ---
 name: Zachary Robertson
-image: images/zach.png
+image: images/zach_robertson.png
 role: phd_students
 links:
   email: sarah.johnson@gmail.com
