@@ -1,6 +1,6 @@
 # STAIR's Website
 
-Visit **[STAIR.github.io](https://STAIR.github.io)** 🚀
+Visit **[https://stair.cs.stanford.edu/](https://stair.cs.stanford.edu/)** 🚀
 
 
 ## Contributing
