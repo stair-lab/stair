@@ -7,7 +7,7 @@
   include feature.html
   image="images/group-photo.jpg"
   link="team"
-  text="Stanford Trustworthy AI Research (STAIR) works to develop the principles and practice of trustworthy machine learning, including fairness and robustness. Our applied research includes applications to healthcare and neuroimaging."
+  text="The Stanford Trustworthy AI Research (STAIR) Lab works to develop principles and practices of trustworthy machine learning, including fairness and robustness. Our applied research includes applications to healthcare and neuroimaging."
   flip=false
 %}
 
