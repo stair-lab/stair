@@ -38,7 +38,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Bowen Jiang | STAIR</title>
+<title>Bowen Jiang | Stanford Trustworthy AI Research</title>
 
 <link rel="icon" href="/images/icon.png">
 
@@ -46,7 +46,7 @@
 <meta name="description" content="STAIR">
 
 <meta property="og:title" content="Bowen Jiang">
-<meta property="og:site_title" content="STAIR">
+<meta property="og:site_title" content="Stanford Trustworthy AI Research">
 <meta property="og:description" content="STAIR">
 <meta property="og:url" content="">
 <meta property="og:image" content="/images/share.jpg">
@@ -481,7 +481,7 @@
     
       <span class="title" data-tooltip="Home">
         
-          <span>STAIR</span>
+          <span>Stanford Trustworthy AI Research</span>
         
         
       </span>
@@ -714,7 +714,7 @@
   <div class="button-wrapper">
     <a
       class="button"
-      href="https://twitter.com/sangttruong"
+      href="https://twitter.com/stai_research"
       
         data-tooltip="Twitter"
       
@@ -733,7 +733,7 @@
 
   <div>
     &copy; 2023
-    STAIR
+    Stanford Trustworthy AI Research
     &nbsp; &nbsp;
     <a href="https://github.com/greenelab/lab-website-template">
     </a>
