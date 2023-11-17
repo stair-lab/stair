@@ -1,5 +1,5 @@
 # site properties and page defaults
-title: STAIR
+title: Stanford Trustworthy AI Research
 subtitle:
 description: STAIR
 header: images/background.jpg
@@ -10,7 +10,7 @@ baseurl: /
 # site social media and other links
 links:
   github: koyejo-lab
-  twitter: sangttruong
+  twitter: stai_research
 
 ### jekyll settings
 

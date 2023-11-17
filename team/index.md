@@ -17,7 +17,7 @@ nav:
 
 {% include list.html data="members" component="portrait" filters="role: phd_students" %}
 
-# {% include icon.html icon="fa-solid fa-users" %}Master
+# {% include icon.html icon="fa-solid fa-users" %}Master Students
 
 {% include list.html data="members" component="portrait" filters="role: master" %}
 
