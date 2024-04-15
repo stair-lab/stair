@@ -141,11 +141,11 @@
   - Jacob D Krol
   - Joseph T Burke
   - Samuel Z Chen
-  - Lo Sosinski
+  - Lo M Sosinski
   - Faisal S Alquaddoomi
   - Evan P Brenner
   - Ethan P Wolfe
-  - Vince P Rubinetti
+  - Vincent P Rubinetti
   - Shaddai Amolitos
   - Kellen M Reason
   - John B Johnston
@@ -286,13 +286,13 @@
   plugin: sources.py
   file: sources.yaml
 - id: arXiv:2302.05049
-  title: Federated Auto-weighted Domain Adaptation
+  title: 'Principled Federated Domain Adaptation: Gradient Projection and Auto-Weighting'
   authors:
   - Enyi Jiang
   - Yibo Jacky Zhang
-  - Oluwasanmi Koyejo
+  - Sanmi Koyejo
   publisher: arXiv
-  date: '2023-06-01'
+  date: '2024-03-26'
   link: https://arxiv.org/abs/2302.05049
   plugin: sources.py
   file: sources.yaml
