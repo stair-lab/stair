@@ -1,10 +1,10 @@
 ---
 name: Nikil Roashan Selvam
 image: images/nikil.png
-role: rotating_phd
+role: phd_students
 links:
   email: email@address.com
-  twitter: johndoe
+  twitter: NikilSelvam
   home-page: https://www.nikilrs.com/
 ---
 

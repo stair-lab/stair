@@ -1,7 +1,7 @@
 ---
 name: Ahmed Ahmed
 image: images/ahmed.png
-role: rotating_phd
+role: phd_students
 links:
   email: email@address.com
   twitter: johndoe
