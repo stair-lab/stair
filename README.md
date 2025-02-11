@@ -2,6 +2,8 @@
 
 Visit **[https://stair.cs.stanford.edu/](https://stair.cs.stanford.edu/)** 🚀
 
+## Running Locally
+
 
 ## Contributing
 

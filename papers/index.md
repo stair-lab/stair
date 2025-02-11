@@ -1,5 +1,5 @@
 ---
-title: Paper
+title: Papers
 nav:
   order: 4
   tooltip: Google Scholar, DPLB, arXiv
