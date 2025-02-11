@@ -1,6 +1,6 @@
 ---
 name: Andy Haupt
-image: images/andy_haupt.jpg
+image: images/andy_haupt.png
 role: postdocs
 links:
   github: indraos

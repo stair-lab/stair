@@ -1,9 +1,8 @@
 ---
 name: Youssef Allouah
-#image: images/debora_caldarola.png
+image: images/youssef_allouah.jpeg
 role: visiting
 links:
-  email: email@address.com
-  twitter: johndoe
+  home-page: https://youssefallouah.com/
 ---
 

@@ -1,7 +1,7 @@
 ---
 name: Pedro Cisneros-Velarde
 image: images/pedro_cisneros_velarde.png
-role: postdocs
+role: alu_post
 links:
   home-page: https://sites.google.com/view/pcisnerosv
   orcid: 0000-0001-8713-9213
