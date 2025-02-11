@@ -5,30 +5,33 @@ nav:
   tooltip: About our team
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}Principal Investigator 
+# {% include icon.html icon="fa-solid fa-users" %} Principal Investigator 
 
 {% include list.html data="members" component="portrait" filters="role: pi" %}
 
-# {% include icon.html icon="fa-solid fa-users" %}Postdocs
+# {% include icon.html icon="fa-solid fa-users" %} Postdocs
 
 {% include list.html data="members" component="portrait" filters="role: postdocs" %}
 
-# {% include icon.html icon="fa-solid fa-users" %}PhD Students
+# {% include icon.html icon="fa-solid fa-users" %} PhD Students
 
 {% include list.html data="members" component="portrait" filters="role: phd_students" %}
 
-# {% include icon.html icon="fa-solid fa-users" %}Master Students
+# {% include icon.html icon="fa-solid fa-users" %} Visiting Students
+
+{% include list.html data="members" component="portrait" filters="role: visiting" %}
+
+# {% include icon.html icon="fa-solid fa-users" %} Master Students
 
 {% include list.html data="members" component="portrait" filters="role: master" %}
 
-# {% include icon.html icon="fa-solid fa-users" %}Rotating PhD Students
+# {% include icon.html icon="fa-solid fa-users" %} Rotating PhD Students
 
 {% include list.html data="members" component="portrait" filters="role: rotating_phd" %}
 
-# {% include icon.html icon="fa-solid fa-users" %} Undergrad
+# {% include icon.html icon="fa-solid fa-users" %} Undergraduate Students
 
 {% include list.html data="members" component="portrait" filters="role: undergrad_students" %}
-
 
 # {% include icon.html icon="fa-solid fa-users" %} Postdoc Alumni
 
