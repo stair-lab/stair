@@ -21,27 +21,27 @@ nav:
 
 {% include list.html data="members" component="portrait" filters="role: master" %}
 
-# {% include icon.html icon="fa-solid fa-users" %}PhD Rotation
+# {% include icon.html icon="fa-solid fa-users" %}Rotating PhD Students
 
 {% include list.html data="members" component="portrait" filters="role: rotating_phd" %}
 
-# {% include icon.html icon="fa-solid fa-users" %}Alumni (Postdocs)
+# {% include icon.html icon="fa-solid fa-users" %} Postdoc Alumni
 
 {% include list.html data="members" component="portrait" filters="role: alu_post" %}
 
-# {% include icon.html icon="fa-solid fa-users" %}Alumni (PhD)
+# {% include icon.html icon="fa-solid fa-users" %} PhD Alumni
 
 {% include list.html data="members" component="portrait" filters="role: alu_phd" %}
 
-# {% include icon.html icon="fa-solid fa-users" %}Alumni (MS)
+# {% include icon.html icon="fa-solid fa-users" %} Master Alumni
 
 {% include list.html data="members" component="portrait" filters="role: alu_ms" %}
 
-# {% include icon.html icon="fa-solid fa-users" %}Alumni (BS)
+# {% include icon.html icon="fa-solid fa-users" %} Undergraduate Alumni
 
 {% include list.html data="members" component="portrait" filters="role: alu_bs" %}
 
-# {% include icon.html icon="fa-solid fa-users" %}Undergrad
+# {% include icon.html icon="fa-solid fa-users" %} Undergrad
 
 {% include list.html data="members" component="portrait" filters="role: undergrad_students" %}
 

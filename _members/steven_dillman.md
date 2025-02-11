@@ -1,6 +1,6 @@
 ---
 name: Steven Dillman
-image: images/sang_truong.png
+image: images/steven_dillman.png
 role: rotating_phd
 links:
   email: stevendi@stanford.edu

@@ -4,6 +4,7 @@ Visit **[https://stair.cs.stanford.edu/](https://stair.cs.stanford.edu/)** 🚀
 
 ## Running Locally
 
+Run `bundle exec jekyll serve`.
 
 ## Contributing
 

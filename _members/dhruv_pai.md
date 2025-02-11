@@ -1,7 +1,7 @@
 ---
 name: Dhruv Pai
 image: images/dhruv_pai.png
-role: undergrad_students
+role: alu_bs
 links:
   email: email@address.com
   twitter: johndoe
