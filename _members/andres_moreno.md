@@ -1,7 +1,7 @@
 ---
 name: Andrés Carranza-Moreno
 image: images/andres_moreno.png
-role: undergrad_students
+role: alu_bs
 links:
   email: email@address.com
   twitter: johndoe

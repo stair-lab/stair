@@ -1,7 +1,7 @@
 ---
 name: Kushal Thaman
 image: images/kushal_thaman.jpg
-role: undergrad_students
+role: alu_bs
 links:
   email: kushalt@stanford.edu
   twitter: kushal1t

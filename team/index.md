@@ -25,6 +25,11 @@ nav:
 
 {% include list.html data="members" component="portrait" filters="role: rotating_phd" %}
 
+# {% include icon.html icon="fa-solid fa-users" %} Undergrad
+
+{% include list.html data="members" component="portrait" filters="role: undergrad_students" %}
+
+
 # {% include icon.html icon="fa-solid fa-users" %} Postdoc Alumni
 
 {% include list.html data="members" component="portrait" filters="role: alu_post" %}
@@ -40,10 +45,6 @@ nav:
 # {% include icon.html icon="fa-solid fa-users" %} Undergraduate Alumni
 
 {% include list.html data="members" component="portrait" filters="role: alu_bs" %}
-
-# {% include icon.html icon="fa-solid fa-users" %} Undergrad
-
-{% include list.html data="members" component="portrait" filters="role: undergrad_students" %}
 
 # {% include icon.html icon="fa-solid fa-users" %}Other Alumni & Visitors
 
