@@ -1,7 +1,7 @@
 ---
 name: Olawale Salaudeen
 image: images/olawale_salaudeen.png
-role: phd_students
+role: alu_phd
 links:
   email: john@gmail.com
   twitter: johndoe

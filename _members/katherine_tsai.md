@@ -1,7 +1,7 @@
 ---
 name: Katherine Tsai
 image: images/katherine_tsai.png
-role: phd_students
+role: alu_phd
 links:
   home-page: https://sites.google.com/view/katherinetsai/home
 ---
