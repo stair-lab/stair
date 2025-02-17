@@ -12,4 +12,4 @@ Run `bundle exec jekyll serve`.
 - Connect to any SNAP machine
 - If not previously done, clone the repo `git@github.com:stair-lab/stair.git`
 - Pull from GitHub: `git pull`
-- Copy from `stair/_site` to `/afs/cs/group/koyejolab/www`
+- Copy from `stair/_site` to `/afs/cs/group/koyejolab/www`: `cp -r _site/* /afs/cs/group/koyejolab/www` 
