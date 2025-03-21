@@ -1,6 +1,6 @@
 ---
 name: Tahir Miriyev
-image: images/tahir_miriyev.jpg
+image: images/tahir_miriyev.JPG
 role: visiting
 links:
   email: tahirm@stanford.edu , tahir.miriyev@hpi.de 
