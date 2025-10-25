@@ -1,7 +1,7 @@
 ---
 name: Angelina Wang
 image: images/angelina_wang.jpeg
-role: postdocs
+role: alu_post
 links:
   home-page: https://angelina-wang.github.io/
 ---
