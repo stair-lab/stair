@@ -1,5 +1,22 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1101/2025.06.19.660613
+  title: Scalable data harmonization for single-cell image-based profiling with CytoTable
+  authors:
+  - Dave Bunten
+  - Jenna Tomkinson
+  - Erik Serrano
+  - Michael J. Lippincott
+  - Kenneth I. Brewer
+  - Vince Rubinetti
+  - Faisal Alquaddoomi
+  - Gregory P. Way
+  publisher: Cold Spring Harbor Laboratory
+  date: '2025-06-25'
+  link: https://doi.org/g9rfr3
+  orcid: 0000-0002-4655-3773
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1093/nar/gkad1082
   title: "The Monarch Initiative in 2024: an analytic platform integrating phenotypes,\
     \ genes\_and diseases across species"
@@ -478,7 +495,7 @@
   - Peter Kairouz
   - H. Brendan McMahan
   - Brendan Avent
-  - "Aur\xE9lien Bellet"
+  - "Aur\xC3\xA9lien Bellet"
   - Mehdi Bennis
   - Arjun Nitin Bhagoji
   - Kallista Bonawitz
@@ -491,7 +508,7 @@
   - David Evans
   - Josh Gardner
   - Zachary Garrett
-  - "Adri\xE0 Gasc\xF3n"
+  - "Adri\xC3 Gasc\xC3\xB3n"
   - Badih Ghazi
   - Phillip B. Gibbons
   - Marco Gruteser
@@ -505,16 +522,16 @@
   - Tara Javidi
   - Gauri Joshi
   - Mikhail Khodak
-  - "Jakub Kone\u010Dn\xFD"
+  - "Jakub Kone\xC4\x8Dn\xC3\xBD"
   - Aleksandra Korolova
   - Farinaz Koushanfar
   - Sanmi Koyejo
-  - "Tancr\xE8de Lepoint"
+  - "Tancr\xC3\xA8de Lepoint"
   - Yang Liu
   - Prateek Mittal
   - Mehryar Mohri
   - Richard Nock
-  - "Ayfer \xD6zg\xFCr"
+  - "Ayfer \xC3\x96zg\xC3\xBCr"
   - Rasmus Pagh
   - Mariana Raykova
   - Hang Qi
@@ -525,7 +542,7 @@
   - Sebastian U. Stich
   - Ziteng Sun
   - Ananda Theertha Suresh
-  - "Florian Tram\xE8r"
+  - "Florian Tram\xC3\xA8r"
   - Praneeth Vepakomma
   - Jianyu Wang
   - Li Xiong
@@ -647,7 +664,7 @@
   - David Forsyth
   - Alexander Schwing
   publisher: arXiv
-  date: '2019-04-12'
+  date: '2025-10-01'
   link: https://arxiv.org/abs/1904.05877
   plugin: sources.py
   file: sources.yaml
