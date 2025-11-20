@@ -155,12 +155,13 @@
   title: 'MolEvolvR: A web-app for characterizing proteins using molecular evolution
     and phylogeny'
   authors:
-  - Jacob D Krol
-  - Joseph T Burke
-  - Samuel Z Chen
-  - Lo M Sosinski
   - Faisal S Alquaddoomi
+  - Joseph T Burke
+  - Lo Sosinski
+  - David A Mayer
   - Evan P Brenner
+  - Samuel Z Chen
+  - Jacob D Krol
   - Ethan P Wolfe
   - Vincent P Rubinetti
   - Shaddai Amolitos
