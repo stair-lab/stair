@@ -1,7 +1,7 @@
 ---
 name: Pranava Singhal
 image: images/pranava_singhal.jpg
-role: master
+role: alu_ms
 links:
   home-page: https://sites.google.com/view/pranava/
   orcid: 0009-0004-0166-1529

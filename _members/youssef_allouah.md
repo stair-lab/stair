@@ -1,7 +1,7 @@
 ---
 name: Youssef Allouah
 image: images/youssef_allouah.jpeg
-role: visiting
+role: postdocs
 links:
   home-page: https://youssefallouah.com/
 ---

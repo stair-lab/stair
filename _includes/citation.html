@@ -1,9 +1,14 @@
-{% assign citation = site.data.citations
-  | where_exp: "citation",
-    "citation.id == include.lookup or citation.title contains include.lookup"
-  | first
-  | default: include
-%}
+{% assign lookup_val = include.lookup | default: include.id | default: include.title %}
+{% if lookup_val and lookup_val != "" %}
+  {% assign citation = site.data.citations
+    | where_exp: "citation",
+      "citation.id == lookup_val or citation.title == lookup_val"
+    | first
+    | default: include
+  %}
+{% else %}
+  {% assign citation = include %}
+{% endif %}
 
 <div class="citation">
   {% if include.style == "rich" %}

@@ -1,7 +1,7 @@
 ---
 name: Debora Caldarola
 image: images/debora_caldarola.png
-role: visiting
+role: other
 links:
   email: email@address.com
   twitter: johndoe

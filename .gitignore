@@ -1,11 +1,13 @@
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
+_site/
 vendor
 debug.log
 __pycache__
 .cache
 !cache.db
+.DS_Store
 .DS_STORE
 .env*
 package.json

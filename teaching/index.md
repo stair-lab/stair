@@ -1,8 +1,8 @@
 ---
-title: Teaching
+title: Class
 nav:
-  order: 7
-  tooltip: Curent classes
+  order: 5
+  tooltip: Current classes
 ---
 
 - [MLHP (Fa23)](https://web.stanford.edu/class/cs329h/)

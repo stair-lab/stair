@@ -33,15 +33,9 @@ jobs:
           ruby-version: "3.0"
           bundler-cache: true
 
-      - name: Get Pages url
-        id: pages
-        uses: actions/configure-pages@v2
-        with:
-          enablement: false
-
       - name: Build live version of site
         run: |
-          JEKYLL_ENV=production bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path || '' }}"
+          JEKYLL_ENV=production bundle exec jekyll build --baseurl ""
 
       - name: Commit live site to Pages branch
         uses: JamesIves/github-pages-deploy-action@v4

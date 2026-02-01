@@ -1,7 +1,7 @@
 ---
 name: Steven Dillman
 image: images/steven_dillman.png
-role: rotating_phd
+role: phd_students
 links:
   email: stevendi@stanford.edu
   github: StevenDillmann

@@ -1,15 +1,15 @@
-# STAIR's Website
+# STAIR Lab Website
 
-Visit **[https://stair.cs.stanford.edu/](https://stair.cs.stanford.edu/)** 🚀
+Visit **[stair.cs.stanford.edu](https://stair.cs.stanford.edu)**
 
-## Running Locally
+## Development
 
-Run `bundle exec jekyll serve`.
+```bash
+bundle exec jekyll serve
+```
 
-## Contributing
+## Deployment
 
-- Push to git (with the _site folder)
-- Connect to any SNAP machine
-- If not previously done, clone the repo `git@github.com:stair-lab/stair.git`
-- Pull from GitHub: `git pull`
-- Copy from `stair/_site` to `/afs/cs/group/koyejolab/www`: `cp -r _site/* /afs/cs/group/koyejolab/www` 
+1. Push to GitHub
+2. GitHub Actions builds the site automatically
+3. Copy to AFS: `cp -r _site/* /afs/cs/group/koyejolab/www`
