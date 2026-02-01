@@ -1,1 +1,1 @@
-Sitemap: //stair/sitemap.xml
+Sitemap: //sitemap.xml
