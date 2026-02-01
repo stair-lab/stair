@@ -121,8 +121,7 @@ header[data-big] {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 80px 20px 100px;
-  background: linear-gradient(180deg, var(--background) 0%, var(--background-alt) 100%);
+  padding: 100px 20px;
   top: unset;
 }
 header[data-big] .home {

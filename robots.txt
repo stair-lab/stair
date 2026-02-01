@@ -1,1 +1,1 @@
-Sitemap: http://0.0.0.0:4001/sitemap.xml
+Sitemap: //stair/sitemap.xml

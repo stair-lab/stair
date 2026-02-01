@@ -11,29 +11,16 @@
   overflow: hidden;
   box-shadow: var(--shadow);
   vertical-align: top;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-.card:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-hover);
 }
 
 .card[data-style=small] {
   width: 250px;
 }
 
-.card-image {
-  overflow: hidden;
-}
 .card-image img {
   aspect-ratio: 3/2;
   object-fit: cover;
   width: 100%;
-  transition: transform 0.3s ease;
-}
-
-.card:hover .card-image img {
-  transform: scale(1.05);
 }
 
 .card-text {

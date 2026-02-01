@@ -29,7 +29,7 @@ main > section:nth-of-type(odd) {
 }
 
 main > section:nth-of-type(even) {
-  background: linear-gradient(180deg, var(--background-alt) 0%, var(--background) 100%);
+  background: var(--background-alt);
 }
 
 /*# sourceMappingURL=section.css.map */
