@@ -1,0 +1,5689 @@
+<!DOCTYPE html>
+<html lang="en" data-dark="false">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!--
+  put your analytics (e.g. Google Analytics) tracking code here
+-->
+
+  <!--
+  put your search engine verification (e.g. Google Search Console) tag here
+-->
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Papers | Stanford Trustworthy AI Research</title>
+
+<link rel="icon" href="/images/icon.png">
+
+<meta name="title" content="Papers">
+<meta name="description" content="STAIR">
+
+<meta property="og:title" content="Papers">
+<meta property="og:site_title" content="Stanford Trustworthy AI Research">
+<meta property="og:description" content="STAIR">
+<meta property="og:url" content="">
+<meta property="og:image" content="/images/share.jpg">
+<meta property="og:locale" content="en_US">
+
+<meta property="twitter:title" content="Papers">
+<meta property="twitter:description" content="STAIR">
+<meta property="twitter:url" content="">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:image" content="/images/share.jpg">
+
+
+  <meta property="og:type" content="website">
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "WebSite",
+    
+    "name": "Papers",
+    "description": "STAIR",
+    "headline": "Papers",
+    "publisher": {
+      "@type": "Organization",
+      "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
+    },
+    "url": ""
+  }
+</script>
+
+<link rel="alternate" type="application/rss+xml" href="http://0.0.0.0:4001/feed.xml">
+
+  <!-- Google Fonts -->
+<!-- automatically get url from fonts used in theme file -->
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+
+<!-- Font Awesome icons (load asynchronously due to size) -->
+
+<link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="preload" as="style" onload="this.onload = null; this.rel = 'stylesheet';">
+<noscript>
+  <link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="stylesheet">
+</noscript>
+
+  <!-- third party styles -->
+<!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+
+<!-- include all sass in styles folder -->
+
+
+  
+    <link href="/_styles/-theme.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/alert.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/all.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/anchor.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/background.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/body.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/bold.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/button.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/card.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/checkbox.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/citation.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/code.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/dark-toggle.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/feature.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/figure.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/float.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/font.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/footer.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/form.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/grid.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/header.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/heading.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/highlight.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/icon.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/image.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/link.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/list.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/main.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/paragraph.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/portrait.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/post-excerpt.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/post-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/post-nav.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/quote.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/rule.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/search-box.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/search-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/section.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/table.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/tags.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/textbox.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/tooltip.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/util.css" rel="stylesheet">
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+<!-- include all css in styles folder -->
+
+
+
+  <!-- third party scripts -->
+<script src="https://unpkg.com/@popperjs/core@2" defer></script>
+<script src="https://unpkg.com/tippy.js@6" defer></script>
+<script src="https://unpkg.com/mark.js@8" defer></script>
+
+<!-- include all js in scripts folder -->
+
+
+  <script src="/_scripts/anchors.js"></script>
+
+  <script src="/_scripts/dark-mode.js"></script>
+
+  <script src="/_scripts/fetch-tags.js"></script>
+
+  <script src="/_scripts/search.js"></script>
+
+  <script src="/_scripts/site-search.js"></script>
+
+  <script src="/_scripts/tooltip.js"></script>
+
+
+</head>
+
+  <body>
+    
+
+
+
+
+
+
+
+<header class="background" style="--image: url('/images/background.jpg')" data-dark="true">
+  <a href="/" class="home">
+    
+      <span class="logo">
+        
+          <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="248.02pt" width="162pt" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewbox="0 0 162 248.022">
+ <g>
+  <path fill="#8c1515" d="m35.872 1.1236-34.558 33.832v90.907l30.041 30.665h13.776c-0.33541 0.92261-0.77516 2.3452 0.18119 3.7375 1.0401 1.5433 2.835 1.5433 3.5228 1.5433 0.80522 0 1.9291-0.10059 3.6571-0.33551h0.02027s0.72132 0.64079-1.4762 1.3621c-1.8117 0.63746-3.3919 1.6909-3.912 3.5025-0.03436 0.13399-0.04703 0.27196-0.08053 0.38918h-45.716l-0.013433 46.465 34.558 33.953h90.887l34.558-33.905v-87.077l-30.047-30.618h-25.478c-0.0172 0-0.0403-0.0134-0.0403-0.0134-1.1239-0.67099-2.2781-1.3789-3.3349-2.0667l-0.38917-0.24828-0.0671-0.04026c-0.57036-0.35214-1.1709-0.78508-1.8251-1.3554-0.57036-0.45294-1.0434-0.90584-1.3957-1.3085l-0.10066-0.10066c-0.67099-0.70459-1.2581-1.3789-1.7111-1.966 3.9756 1.1407 8.3071 1.4292 10.387 1.4963h0.24828c0.13399 0 0.27196 0.02027 0.38918 0.02027l0.18116 0.0134c0.50323 0.03436 0.88907 0.11712 1.1407 0.20129 0.26842 0.10049 0.5066 0.22159 0.72469 0.32208l1.0736 0.40261c0.25165 0.06699 0.52 0.08053 0.80522 0.08053 1.5601 0 3.0195-0.93941 3.6904-2.4156 0.21816-0.50327 0.5536-1.5064 0.30195-2.8316l45.442 0.03367v-50.76l-34.551-33.886h-90.887z"></path>
+  <path fill="#fff" d="m157.19 36.804-32.1-31.487h-87.55l-32.108 31.436v87.382l27.628 28.182 17.815 0.0172c-1.9963 1.7949-2.6169 3.6569-2.9357 4.5628-0.68775 1.9962-1.4091 2.5665 4.8479 1.6943 1.9795-0.28515 5.5862-1.5601 7.2803-2.7008 1.6607-1.1407 4.9484-0.21816 4.6633 2.2479-1.5433 3.7743-5.502 6.1397-9.2768 6.6095-8.6893 1.0904-4.9317 4.3279-4.9317 4.3279 0.95619 0.65426 1.644 1.2917 2.1305 1.8621h-4.2273v-0.0172h-42.978l-0.017178 40.478 32.091 31.537h87.567l32.09-31.487v-83.539l-27.628-28.148h-22.327c-1.7781-1.1911-4.177-2.5163-6.3578-3.9421 0-0.01718 0-0.01718-0.0172-0.01718-0.83874-0.48647-1.6607-1.0903-2.4491-1.7781-0.65421-0.52001-1.2413-1.0736-1.7446-1.6272-1.9291-2.013-3.3717-4.1099-3.7576-5.0829-0.72133-1.7781-0.55355-4.026 1.0736-3.1034 4.1267 2.3821 10.904 2.835 13.42 2.9189 0.28515 0 2.3149 0.2349 2.8014 0.38564 0.50322 0.20141 1.2749 0.57034 1.2749 0.57034 1.0233 0.43614 2.8685-0.97294 0.73812-3.5731-0.55359-0.88907-1.3923-1.9124-2.3821-2.9524h47.354v-44.756"></path>
+  <path d="m48.988 11.889l-37.05 36.297v104.79l31.537 32.17h29.607c5.053-2.22 6.123-2.03 7.527-4.86 0.21-0.45 0.418-1.75 0.44-3.02 0.063-0.36 0.693-4.18-1.153-3.25-3.166 1.59-9.562-2.61-14.343-0.11-4.781 2.47-1.279-3.27-0.608-4.26 0 0 2.558-3.37 6.416-5.6 0.147-0.08 0.273-0.16 0.377-0.25 0.378-0.21 0.756-0.39 1.155-0.58 2.935-1.37 11.3-6.94 12.81-8.68 0.902-1.01 2.496-3.32 2.559-4.6 0.272-1.11 0.483-2.87-0.586-3.56-1.594-1.05-2.874 1-5.369 2.12-2.496 1.11-4.383 1.57-6.606 1.65-2.138 0.07-4.193-0.75-5.472-0.56-1.28 0.21-2.035-0.76 0.314-3.13 1.069-1.07 1.532-1.55 2.035-1.91 5.578-3.58 10.589-3.62 13.399-9.98 0 0 2.181-5.7-2.034-3.27-2.306 1.34-3.564 3.27-10.17 3.27-6.584 0-9.164 3.13-10.275 4.49 0 0-4.486 6.27-3.375-2.52 1.133-8.76 2.83-13.23 6.961-16.65 3.564-2.93 12.412-6.87 15.6-11.21 1.635-1.62 5.746-6.32 3.355-10.299-1.007-1.678-3.459 2.669-5.996 3.229-2.894 0.76-6.563 1.7-9.373 1.13-3.481-0.69-5.704 0.63-7.004 1.22s-3.754-1.28-0.756-4.698c4.026-4.592 13.757-10.588 20.299-14.174 0.902-0.378 3.102-1.342 5.115-2.621 0.042-0.022 0.084-0.043 0.106-0.043 0.503-0.231 1.237-0.672 1.656-1.238 1.426-1.196 2.412-2.536 2.076-3.899-0.293-1.237-0.903-1.657-2.832-1.867-1.53-0.147-4.066 1.636-6.205 1.469-3.271-0.273-8.074 0.481-6.48-1.846 1.488-2.16 3.899-3.545 4.591-3.922 1.342-0.608 3.146-1.404 5.809-2.6 4.173-1.887 3.585-6.625 1.971-6.792-2.517-0.273-9.31 1.906-4.53-3.545 0 0 2.266-2.285 4.551-3.774 1.803-1.048 3.292-1.447 5.074-2.098 1.112-0.398 4.028-2.977-2.892-3.25 0 0-3.859 0.105-3.125-1.677 0.608-1.174 4.006-3.313 4.006-3.313s2.724-1.867 3.836-2.978c1.069-1.028 1.824-1.845 1.761-2.768-0.042-1.048-2.768-2.348-3.922-3.816-0.817-1.049-0.125-1.425 0.336-1.551 0.252-0.041 0.546-0.084 0.903-0.084 2.809 0.021 3.606-2.789 5.246-10.086 0.48-2.181 0.52-2.641 1.23-2.662 0.07 0 0.11 0.021 0.15 0.021 0 0 0.69 3.69 1.7 7.821 0.86 2.285 1.8 3.25 3.46 3.228 0.33 0 0.63 0.041 0.88 0.084 0.46 0.126 1.17 0.505 0.33 1.553-0.63 0.818-2.51 2.139-2.66 2.936-0.54 2.264 1.62 3.082 3.82 3.25 3.12 0.209 1.82 2.159-1.55 4.654-3.25 2.411 5.07 7.57 5.07 7.57 4.74 3.67 1.36 4.612 0.4 5.137-0.97 0.503-3.63 2.139-0.97 3.187 2.69 1.028 6.38 4.739 6.38 4.739 4.76 5.451-2.02 3.293-4.53 3.545-1.62 0.167-2.2 4.926 1.97 6.793 6.35 2.872 7.76 3.355 10 5.033 4.19 3.103 1.97 5.745-3.27 4.822 0 0-3.35-0.838-5.7-0.377-1.47 0.273-2.48 0.608-3.17 0.965-0.36 0.545-1.19 2.704 6.1 4.947 3.48 1.09 7.8 3.713 11.64 6.711l59.81-0.062-0.01-48.457-37.05-36.338h-105.3zm90.312 118.05c1.72 2.85 2.72 6.58 3.46 12.06 0.02 3.29-4.32 1.69-5.73 0.83-0.98-0.67-2.28-1.29-3.96-1.69-3.17-0.76-10.71-4.07-12.77-4.81-2.1-0.77-3.63 0.78-3.88 1.37h0.02c-0.54 1 0.57 3.02 0.57 3.02 2.96 6.71 8.41 6.35 14.4 10.65 8.24 5.87 3.84 7.11 2.14 6.23-1.67-0.9-4.44-0.34-4.44-0.34-6.65 1.83-8.64-0.94-12.54-1.97-3.88-1.05-0.69 3.78 0.71 5.39 1.49 1.74 9.88 7.32 12.79 8.68 6.36 2.96 9.67 7.76 11.64 13.86 1.87 5.77-0.17 4.51-1.68 3.8-1.51-0.72-1.95-2.27-5.7-2.18-3.77 0.08-5.89-0.19-8.58-2.31-0.71-0.55-1.28-1.18-1.76-1.7-0.04-0.02-0.06-0.04-0.08-0.06-2.58-1.97-2.08 4.57-1.55 5.64 1.86 3.75 3.12 2.22 13.86 7.95 5.09 2.72 6.29 6.37 6.83 7.9 0.86 2.48 1.74 3.19-6.06 2.1-2.49-0.34-6.98-1.93-9.12-3.38-2.05-1.42-6.18-0.27-5.81 2.81 1.93 4.72 6.88 7.68 11.6 8.26 4.13 0.53 6 1.43 6.75 2.35 2.26 2.58-1.93 6.36-1.93 6.36-2.1 2.43 0.17 5.28 1.72 6.12 2.52 1.28 7.4 4.21 9.02 8.41 8.47 21.8 0.27 15.55-3.74 13.06-4.02-2.5-11.68-8.91-18.66-8.35-6.98 0.55-9.31 0.93-13.46-2.37-4.13-3.29-3.73 2.04-3.73 2.04v26.29c0.25 5.89 1.34 11.51 6.02 16.27 3.83 3.93 6.75 3.19 12.16 9.8 2.49 3.04 10.63 6.31 16.06 6.37l10.42 0.02 37.05-36.34v-100.04l-31.51-32.1h-20.53zm-127.34 88.97l-0.021 43.09 37.05 36.36h11.91c11.198-0.55 15.391-9.23 18.788-14.57 2.558-4.05 7.088-7.49 9.961-10.43 3.04-3.08 3.586-10.13 3.669-17.76v-15.93l0.022 0.16v-3.81h0.021v-2.54h0.002v-0.59-6.87c0-1.6-1.845-1.72-5.871 2.64-4.047 4.34-10.819 3.98-14.74 4.34-3.921 0.35-15.202 6.23-18.432 10.44-1.992 2.62-4.823 0.46-3.67-4.7h-0.042c0.545-2.32 1.551-5.45 3.166-9.58 2.222-5.76 10.568-9.14 10.568-9.14s0.86-0.38 1.615-1.11h-53.996z" transform="matrix(.80001 0 0 .80001 -.00065308 0)" fill="#8c1515"></path>
+ </g>
+</svg>
+
+        
+      </span>
+    
+    
+      <span class="title" data-tooltip="Home">
+        
+          <span>Stanford Trustworthy AI Research</span>
+        
+        
+      </span>
+    
+  </a>
+
+  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+
+  <nav>
+    
+    
+      
+        <a href="/team/" data-tooltip="About our team">
+          Team
+        </a>
+      
+    
+      
+        <a href="/papers/" data-tooltip="Google Scholar, DPLB, arXiv">
+          Papers
+        </a>
+      
+    
+      
+        <a href="/teaching/" data-tooltip="Current classes">
+          Class
+        </a>
+      
+    
+  </nav>
+</header>
+
+    <main>
+      <!--
+  modify main content of page:
+  - add section breaks
+  - attach section properties
+  - wrap each table in div to allow for scrolling
+  - filter out blank sections
+-->
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <h1 id="publications">
+<i class="icon fa-solid fa-feather-pointed"></i>Publications</h1>
+
+<h2 id="all">All</h2>
+
+<div class="search-box">
+  <input type="text" class="search-input" oninput="onSearchInput(this)" placeholder="Search items on this page">
+  <button disabled data-tooltip="Clear search" aria-label="clear search" onclick="onSearchClear()">
+    <i class="icon fa-solid fa-magnifying-glass"></i>
+  </button>
+</div>
+
+<div class="search-info"></div>
+
+<h3 id="2025">2025</h3>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/1904.05877" class="citation-image" aria-label="Max-Sliced Wasserstein Distance and its use for GANs">
+      <img src="" alt="Max-Sliced Wasserstein Distance and its use for GANs" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/1904.05877" class="citation-title">
+      Max-Sliced Wasserstein Distance and its use for GANs
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Ishan Deshpande, Yuan-Ting Hu, Ruoyu Sun, Ayis Pyrros, Nasir Siddiqui, Sanmi Koyejo, Zhizhen Zhao, David Forsyth, Alexander Schwing
+    </div>
+
+    <div class="citation-details">
+      arXiv
+        ·  
+      01 Oct 2025
+        ·  
+      arXiv:1904.05877
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://doi.org/g9rfr3" class="citation-image" aria-label="Scalable data harmonization for single-cell image-based profiling with CytoTable">
+      <img src="" alt="Scalable data harmonization for single-cell image-based profiling with CytoTable" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://doi.org/g9rfr3" class="citation-title">
+      Scalable data harmonization for single-cell image-based profiling with CytoTable
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Dave Bunten, Jenna Tomkinson, Erik Serrano, Michael J. Lippincott, Kenneth I. Brewer, Vince Rubinetti, Faisal Alquaddoomi, Gregory P. Way
+    </div>
+
+    <div class="citation-details">
+      openRxiv
+        ·  
+      25 Jun 2025
+        ·  
+      doi:10.1101/2025.06.19.660613
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2506.06985" class="citation-image" aria-label="Certified Unlearning for Neural Networks">
+      <img src="" alt="Certified Unlearning for Neural Networks" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2506.06985" class="citation-title">
+      Certified Unlearning for Neural Networks
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Anastasia Koloskova, Youssef Allouah, Animesh Jha, Rachid Guerraoui, Sanmi Koyejo
+    </div>
+
+    <div class="citation-details">
+      arXiv preprint arXiv:2506.06985, 2025
+        ·  
+      01 Jan 2025
+        ·  
+      arXiv:2506.06985
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://www.nowpublishers.com/article/Details/SEC-043" class="citation-image" aria-label="Trustworthy machine learning: From data to models">
+      <img src="" alt="Trustworthy machine learning: From data to models" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://www.nowpublishers.com/article/Details/SEC-043" class="citation-title">
+      Trustworthy machine learning: From data to models
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Bo Han, Jiangchao Yao, Tongliang Liu, Bo Li, Sanmi Koyejo, Feng Liu
+    </div>
+
+    <div class="citation-details">
+      Foundations and Trends® in Privacy and Security 7 (2-3), 74-246, 2025
+        ·  
+      01 Jan 2025
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2503.03150" class="citation-image" aria-label="Position: Model collapse does not mean what you think">
+      <img src="" alt="Position: Model collapse does not mean what you think" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2503.03150" class="citation-title">
+      Position: Model collapse does not mean what you think
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Rylan Schaeffer, Joshua Kazdan, Alvan Caleb Arulandu, Sanmi Koyejo
+    </div>
+
+    <div class="citation-details">
+      arXiv preprint arXiv:2503.03150, 2025
+        ·  
+      01 Jan 2025
+        ·  
+      arXiv:2503.03150
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://dl.acm.org/doi/abs/10.1145/3708359.3712152" class="citation-image" aria-label="More than marketing? on the information value of ai benchmarks for practitioners">
+      <img src="" alt="More than marketing? on the information value of ai benchmarks for practitioners" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://dl.acm.org/doi/abs/10.1145/3708359.3712152" class="citation-title">
+      More than marketing? on the information value of ai benchmarks for practitioners
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Amelia Hardy, Anka Reuel, Kiana Jafari Meimandi, Lisa Soder, Allie Griffith, Dylan M Asmar, Sanmi Koyejo, Michael S Bernstein, Mykel John Kochenderfer
+    </div>
+
+    <div class="citation-details">
+      Proceedings of the 30th International Conference on Intelligent User …, 2025
+        ·  
+      01 Jan 2025
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://link.springer.com/chapter/10.1007/978-3-031-90643-5_6" class="citation-image" aria-label="Pantograph: A machine-to-machine interaction interface for advanced theorem proving, high level reasoning, and data extraction in lean 4">
+      <img src="" alt="Pantograph: A machine-to-machine interaction interface for advanced theorem proving, high level reasoning, and data extraction in lean 4" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://link.springer.com/chapter/10.1007/978-3-031-90643-5_6" class="citation-title">
+      Pantograph: A machine-to-machine interaction interface for advanced theorem proving, high level reasoning, and data extraction in lean 4
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Leni Aniva, Chuyue Sun, Brando Miranda, Clark Barrett, Sanmi Koyejo
+    </div>
+
+    <div class="citation-details">
+      International Conference on Tools and Algorithms for the Construction and …, 2025
+        ·  
+      01 Jan 2025
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://jamanetwork.com/journals/jamanetworkopen/article-abstract/2837372" class="citation-image" aria-label="Fidelity of medical reasoning in large language models">
+      <img src="" alt="Fidelity of medical reasoning in large language models" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://jamanetwork.com/journals/jamanetworkopen/article-abstract/2837372" class="citation-title">
+      Fidelity of medical reasoning in large language models
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Suhana Bedi, Yixing Jiang, Philip Chung, Sanmi Koyejo, Nigam Shah
+    </div>
+
+    <div class="citation-details">
+      JAMA Network Open 8 (8), e2526021-e2526021, 2025
+        ·  
+      01 Jan 2025
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2503.15754" class="citation-image" aria-label="Autoredteamer: Autonomous red teaming with lifelong attack integration">
+      <img src="" alt="Autoredteamer: Autonomous red teaming with lifelong attack integration" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2503.15754" class="citation-title">
+      Autoredteamer: Autonomous red teaming with lifelong attack integration
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Andy Zhou, Kevin Wu, Francesco Pinto, Zhaorun Chen, Yi Zeng, Yu Yang, Shuang Yang, Sanmi Koyejo, James Zou, Bo Li
+    </div>
+
+    <div class="citation-details">
+      arXiv preprint arXiv:2503.15754, 2025
+        ·  
+      01 Jan 2025
+        ·  
+      arXiv:2503.15754
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2505.10573" class="citation-image" aria-label="Measurement to Meaning: A Validity-Centered Framework for AI Evaluation">
+      <img src="" alt="Measurement to Meaning: A Validity-Centered Framework for AI Evaluation" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2505.10573" class="citation-title">
+      Measurement to Meaning: A Validity-Centered Framework for AI Evaluation
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Olawale Salaudeen, Anka Reuel, Ahmed Ahmed, Suhana Bedi, Zachary Robertson, Sudharsan Sundar, Ben Domingue, Angelina Wang, Sanmi Koyejo
+    </div>
+
+    <div class="citation-details">
+      arXiv preprint arXiv:2505.10573, 2025
+        ·  
+      01 Jan 2025
+        ·  
+      arXiv:2505.10573
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2502.09956" class="citation-image" aria-label="Kggen: Extracting knowledge graphs from plain text with language models">
+      <img src="" alt="Kggen: Extracting knowledge graphs from plain text with language models" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2502.09956" class="citation-title">
+      Kggen: Extracting knowledge graphs from plain text with language models
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Belinda Mo, Kyssen Yu, Joshua Kazdan, Joan Cabezas, Proud Mpala, Lisa Yu, Chris Cundy, Charilaos Kanatsoulis, Sanmi Koyejo
+    </div>
+
+    <div class="citation-details">
+      arXiv preprint arXiv:2502.09956, 2025
+        ·  
+      01 Jan 2025
+        ·  
+      arXiv:2502.09956
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2503.05336" class="citation-image" aria-label="Toward an evaluation science for generative ai systems">
+      <img src="" alt="Toward an evaluation science for generative ai systems" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2503.05336" class="citation-title">
+      Toward an evaluation science for generative ai systems
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Laura Weidinger, Inioluwa Deborah Raji, Hanna Wallach, Margaret Mitchell, Angelina Wang, Olawale Salaudeen, Rishi Bommasani, Deep Ganguli, Sanmi Koyejo, William Isaac
+    </div>
+
+    <div class="citation-details">
+      arXiv preprint arXiv:2503.05336, 2025
+        ·  
+      01 Jan 2025
+        ·  
+      arXiv:2503.05336
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2504.20879" class="citation-image" aria-label="The leaderboard illusion">
+      <img src="" alt="The leaderboard illusion" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2504.20879" class="citation-title">
+      The leaderboard illusion
+    </a>
+
+    <div class="citation-authors" data-tooltip="Shivalika Singh, Yiyang Nan, Alex Wang, Daniel D'Souza, Sayash Kapoor, Ahmet Üstün, Sanmi Koyejo, Yuntian Deng, Shayne Longpre, Noah A Smith, Beyza Ermis, Marzieh Fadaee, Sara Hooker " tabindex="0">
+      Shivalika Singh, Yiyang Nan, Alex Wang, Daniel D'Souza, Sayash Kapoor, ..., Shayne Longpre, Noah A Smith, Beyza Ermis, Marzieh Fadaee, Sara Hooker
+    </div>
+
+    <div class="citation-details">
+      arXiv preprint arXiv:2504.20879, 2025
+        ·  
+      01 Jan 2025
+        ·  
+      arXiv:2504.20879
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2505.23802" class="citation-image" aria-label="MedHELM: Holistic Evaluation of Large Language Models for Medical Tasks">
+      <img src="" alt="MedHELM: Holistic Evaluation of Large Language Models for Medical Tasks" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2505.23802" class="citation-title">
+      MedHELM: Holistic Evaluation of Large Language Models for Medical Tasks
+    </a>
+
+    <div class="citation-authors" data-tooltip="Suhana Bedi, Hejie Cui, Miguel Fuentes, Alyssa Unell, Michael Wornow, Juan M Banda, Nikesh Kotecha, Timothy Keyes, Yifan Mai, Mert Oez, Hao Qiu, Shrey Jain, Leonardo Schettini, Mehr Kashyap, Jason Alan Fries, Akshay Swaminathan, Philip Chung, Fateme Nateghi, Asad Aali, Ashwin Nayak, Shivam Vedak, Sneha S Jain, Birju Patel, Oluseyi Fayanju, Shreya Shah, Ethan Goh, Dong-han Yao, Brian Soetikno, Eduardo Reis, Sergios Gatidis, Vasu Divi, Robson Capasso, Rachna Saralkar, Chia-Chun Chiang, Jenelle Jindal, Tho Pham, Faraz Ghoddusi, Steven Lin, Albert S Chiou, Christy Hong, Mohana Roy, Michael F Gensheimer, Hinesh Patel, Kevin Schulman, Dev Dash, Danton Char, Lance Downing, Francois Grolleau, Kameron Black, Bethel Mieso, Aydin Zahedivash, Wen-wai Yim, Harshita Sharma, Tony Lee, Hannah Kirsch, Jennifer Lee, Nerissa Ambers, Carlene Lugtu, Aditya Sharma, Bilal Mawji, Alex Alekseyev, Vicky Zhou, Vikas Kakkar, Jarrod Helzer, Anurang Revri, Yair Bannett, Roxana Daneshjou, Jonathan Chen, Emily Alsentzer, Keith Morse, Nirmal Ravi, Nima Aghaeepour, Vanessa Kennedy, Akshay Chaudhari, Thomas Wang, Sanmi Koyejo, Matthew P Lungren, Eric Horvitz, Percy Liang, Mike Pfeffer, Nigam H Shah " tabindex="0">
+      Suhana Bedi, Hejie Cui, Miguel Fuentes, Alyssa Unell, Michael Wornow, ..., Matthew P Lungren, Eric Horvitz, Percy Liang, Mike Pfeffer, Nigam H Shah
+    </div>
+
+    <div class="citation-details">
+      arXiv preprint arXiv:2505.23802, 2025
+        ·  
+      01 Jan 2025
+        ·  
+      arXiv:2505.23802
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2508.08292" class="citation-image" aria-label="Putnam-axiom: A functional and static benchmark for measuring higher level mathematical reasoning in llms">
+      <img src="" alt="Putnam-axiom: A functional and static benchmark for measuring higher level mathematical reasoning in llms" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2508.08292" class="citation-title">
+      Putnam-axiom: A functional and static benchmark for measuring higher level mathematical reasoning in llms
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Aryan Gulati, Brando Miranda, Eric Chen, Emily Xia, Kai Fronsdal, Bruno Dumont, Elyas Obbad, Sanmi Koyejo
+    </div>
+
+    <div class="citation-details">
+      arXiv preprint arXiv:2508.08292, 2025
+        ·  
+      01 Jan 2025
+        ·  
+      arXiv:2508.08292
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="http://openaccess.thecvf.com/content/CVPR2025/html/Dalal_One-Minute_Video_Generation_with_Test-Time_Training_CVPR_2025_paper.html" class="citation-image" aria-label="One-minute video generation with test-time training">
+      <img src="" alt="One-minute video generation with test-time training" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="http://openaccess.thecvf.com/content/CVPR2025/html/Dalal_One-Minute_Video_Generation_with_Test-Time_Training_CVPR_2025_paper.html" class="citation-title">
+      One-minute video generation with test-time training
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Karan Dalal, Daniel Koceja, Jiarui Xu, Yue Zhao, Shihao Han, Ka Chun Cheung, Jan Kautz, Yejin Choi, Yu Sun, Xiaolong Wang
+    </div>
+
+    <div class="citation-details">
+      Proceedings of the Computer Vision and Pattern Recognition Conference, 17702 …, 2025
+        ·  
+      01 Jan 2025
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://ojs.aaai.org/index.php/AIES/article/view/36598" class="citation-image" aria-label="Syceval: Evaluating llm sycophancy">
+      <img src="" alt="Syceval: Evaluating llm sycophancy" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://ojs.aaai.org/index.php/AIES/article/view/36598" class="citation-title">
+      Syceval: Evaluating llm sycophancy
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Aaron Fanous, Jacob Goldberg, Ank Agarwal, Joanna Lin, Anson Zhou, Sonnet Xu, Vasiliki Bikia, Roxana Daneshjou, Sanmi Koyejo
+    </div>
+
+    <div class="citation-details">
+      Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society 8 (1), 893-900, 2025
+        ·  
+      01 Jan 2025
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://www.nature.com/articles/s42256-025-00985-0" class="citation-image" aria-label="Rethinking machine unlearning for large language models">
+      <img src="" alt="Rethinking machine unlearning for large language models" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://www.nature.com/articles/s42256-025-00985-0" class="citation-title">
+      Rethinking machine unlearning for large language models
+    </a>
+
+    <div class="citation-authors" data-tooltip="Sijia Liu, Yuanshun Yao, Jinghan Jia, Stephen Casper, Nathalie Baracaldo, Peter Hase, Yuguang Yao, Chris Yuhao Liu, Xiaojun Xu, Hang Li, Kush R Varshney, Mohit Bansal, Sanmi Koyejo, Yang Liu " tabindex="0">
+      Sijia Liu, Yuanshun Yao, Jinghan Jia, Stephen Casper, Nathalie Baracaldo, ..., Hang Li, Kush R Varshney, Mohit Bansal, Sanmi Koyejo, Yang Liu
+    </div>
+
+    <div class="citation-details">
+      Nature Machine Intelligence, 1-14, 2025
+        ·  
+      01 Jan 2025
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://jamanetwork.com/journals/jama/article-abstract/2825147" class="citation-image" aria-label="Testing and evaluation of health care applications of large language models: a systematic review">
+      <img src="" alt="Testing and evaluation of health care applications of large language models: a systematic review" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://jamanetwork.com/journals/jama/article-abstract/2825147" class="citation-title">
+      Testing and evaluation of health care applications of large language models: a systematic review
+    </a>
+
+    <div class="citation-authors" data-tooltip="Suhana Bedi, Yutong Liu, Lucy Orr-Ewing, Dev Dash, Sanmi Koyejo, Alison Callahan, Jason A Fries, Michael Wornow, Akshay Swaminathan, Lisa Soleymani Lehmann, Hyo Jung Hong, Mehr Kashyap, Akash R Chaurasia, Nirav R Shah, Karandeep Singh, Troy Tazbaz, Arnold Milstein, Michael A Pfeffer, Nigam H Shah " tabindex="0">
+      Suhana Bedi, Yutong Liu, Lucy Orr-Ewing, Dev Dash, Sanmi Koyejo, ..., Karandeep Singh, Troy Tazbaz, Arnold Milstein, Michael A Pfeffer, Nigam H Shah
+    </div>
+
+    <div class="citation-details">
+      Jama, 2025
+        ·  
+      01 Jan 2025
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<h3 id="2024">2024</h3>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2302.05049" class="citation-image" aria-label="Principled Federated Domain Adaptation: Gradient Projection and Auto-Weighting">
+      <img src="" alt="Principled Federated Domain Adaptation: Gradient Projection and Auto-Weighting" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2302.05049" class="citation-title">
+      Principled Federated Domain Adaptation: Gradient Projection and Auto-Weighting
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Enyi Jiang, Yibo Jacky Zhang, Sanmi Koyejo
+    </div>
+
+    <div class="citation-details">
+      arXiv
+        ·  
+      26 Mar 2024
+        ·  
+      arXiv:2302.05049
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://openreview.net/forum?id=wSpwj7xab9" class="citation-image" aria-label="Does data contamination make a difference? insights from intentionally contaminating pre-training data for language models">
+      <img src="" alt="Does data contamination make a difference? insights from intentionally contaminating pre-training data for language models" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://openreview.net/forum?id=wSpwj7xab9" class="citation-title">
+      Does data contamination make a difference? insights from intentionally contaminating pre-training data for language models
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Minhao Jiang, Ken Liu, Ming Zhong, Rylan Schaeffer, Siru Ouyang, Jiawei Han, Sanmi Koyejo
+    </div>
+
+    <div class="citation-details">
+      ICLR 2024 Workshop on Navigating and Addressing Data Problems for Foundation …, 2024
+        ·  
+      01 Jan 2024
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2402.04177" class="citation-image" aria-label="Scaling laws for downstream task performance in machine translation">
+      <img src="" alt="Scaling laws for downstream task performance in machine translation" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2402.04177" class="citation-title">
+      Scaling laws for downstream task performance in machine translation
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Berivan Isik, Natalia Ponomareva, Hussein Hazimeh, Dimitris Paparas, Sergei Vassilvitskii, Sanmi Koyejo
+    </div>
+
+    <div class="citation-details">
+      arXiv preprint arXiv:2402.04177, 2024
+        ·  
+      01 Jan 2024
+        ·  
+      arXiv:2402.04177
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2402.00742" class="citation-image" aria-label="Transforming and combining rewards for aligning large language models">
+      <img src="" alt="Transforming and combining rewards for aligning large language models" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2402.00742" class="citation-title">
+      Transforming and combining rewards for aligning large language models
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Zihao Wang, Chirag Nagpal, Jonathan Berant, Jacob Eisenstein, Alex D'Amour, Sanmi Koyejo, Victor Veitch
+    </div>
+
+    <div class="citation-details">
+      arXiv preprint arXiv:2402.00742, 2024
+        ·  
+      01 Jan 2024
+        ·  
+      arXiv:2402.00742
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2407.15211" class="citation-image" aria-label="Failures to find transferable image jailbreaks between vision-language models">
+      <img src="" alt="Failures to find transferable image jailbreaks between vision-language models" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2407.15211" class="citation-title">
+      Failures to find transferable image jailbreaks between vision-language models
+    </a>
+
+    <div class="citation-authors" data-tooltip="Rylan Schaeffer, Dan Valentine, Luke Bailey, James Chua, Cristobal Eyzaguirre, Zane Durante, Joe Benton, Brando Miranda, Henry Sleight, John Hughes, Rajashree Agrawal, Mrinank Sharma, Scott Emmons, Sanmi Koyejo, Ethan Perez " tabindex="0">
+      Rylan Schaeffer, Dan Valentine, Luke Bailey, James Chua, Cristobal Eyzaguirre, ..., Rajashree Agrawal, Mrinank Sharma, Scott Emmons, Sanmi Koyejo, Ethan Perez
+    </div>
+
+    <div class="citation-details">
+      arXiv preprint arXiv:2407.15211, 2024
+        ·  
+      01 Jan 2024
+        ·  
+      arXiv:2407.15211
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://proceedings.mlr.press/v238/isik24a.html" class="citation-image" aria-label="Adaptive compression in federated learning via side information">
+      <img src="" alt="Adaptive compression in federated learning via side information" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://proceedings.mlr.press/v238/isik24a.html" class="citation-title">
+      Adaptive compression in federated learning via side information
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Berivan Isik, Francesco Pase, Deniz Gunduz, Sanmi Koyejo, Tsachy Weissman, Michele Zorzi
+    </div>
+
+    <div class="citation-details">
+      International Conference on Artificial Intelligence and Statistics, 487-495, 2024
+        ·  
+      01 Jan 2024
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://dl.acm.org/doi/abs/10.1145/3689904.3694708" class="citation-image" aria-label="The case for globalizing fairness: a mixed methods study on colonialism, AI, and health in Africa">
+      <img src="" alt="The case for globalizing fairness: a mixed methods study on colonialism, AI, and health in Africa" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://dl.acm.org/doi/abs/10.1145/3689904.3694708" class="citation-title">
+      The case for globalizing fairness: a mixed methods study on colonialism, AI, and health in Africa
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Mercy Nyamewaa Asiedu, Awa Dieng, Iskandar Haykel, Negar Rostamzadeh, Stephen Pfohl, Chirag Nagpal, Maria Nagawa, Abigail Oppong, Sanmi Koyejo, Katherine Heller
+    </div>
+
+    <div class="citation-details">
+      Proceedings of the 4th ACM Conference on Equity and Access in Algorithms …, 2024
+        ·  
+      01 Jan 2024
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2412.16178" class="citation-image" aria-label="Context clues: Evaluating long context models for clinical prediction tasks on ehrs">
+      <img src="" alt="Context clues: Evaluating long context models for clinical prediction tasks on ehrs" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2412.16178" class="citation-title">
+      Context clues: Evaluating long context models for clinical prediction tasks on ehrs
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Michael Wornow, Suhana Bedi, Miguel Angel Fuentes Hernandez, Ethan Steinberg, Jason Alan Fries, Christopher Ré, Sanmi Koyejo, Nigam H Shah
+    </div>
+
+    <div class="citation-details">
+      arXiv preprint arXiv:2412.16178, 2024
+        ·  
+      01 Jan 2024
+        ·  
+      arXiv:2412.16178
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2406.16797" class="citation-image" aria-label="Lottery ticket adaptation: Mitigating destructive interference in llms">
+      <img src="" alt="Lottery ticket adaptation: Mitigating destructive interference in llms" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2406.16797" class="citation-title">
+      Lottery ticket adaptation: Mitigating destructive interference in llms
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Ashwinee Panda, Berivan Isik, Xiangyu Qi, Sanmi Koyejo, Tsachy Weissman, Prateek Mittal
+    </div>
+
+    <div class="citation-details">
+      arXiv preprint arXiv:2406.16797, 2024
+        ·  
+      01 Jan 2024
+        ·  
+      arXiv:2406.16797
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2406.04391" class="citation-image" aria-label="Why Has Predicting Downstream Capabilities of Frontier AI Models with Scale Remained Elusive?">
+      <img src="" alt="Why Has Predicting Downstream Capabilities of Frontier AI Models with Scale Remained Elusive?" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2406.04391" class="citation-title">
+      Why Has Predicting Downstream Capabilities of Frontier AI Models with Scale Remained Elusive?
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Rylan Schaeffer, Hailey Schoelkopf, Brando Miranda, Gabriel Mukobi, Varun Madan, Adam Ibrahim, Herbie Bradley, Stella Biderman, Sanmi Koyejo
+    </div>
+
+    <div class="citation-details">
+      arXiv preprint arXiv:2406.04391, 2024
+        ·  
+      01 Jan 2024
+        ·  
+      arXiv:2406.04391
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2410.16713" class="citation-image" aria-label="Collapse or thrive? perils and promises of synthetic data in a self-generating world">
+      <img src="" alt="Collapse or thrive? perils and promises of synthetic data in a self-generating world" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2410.16713" class="citation-title">
+      Collapse or thrive? perils and promises of synthetic data in a self-generating world
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Joshua Kazdan, Rylan Schaeffer, Apratim Dey, Matthias Gerstgrasser, Rafael Rafailov, David L Donoho, Sanmi Koyejo
+    </div>
+
+    <div class="citation-details">
+      arXiv preprint arXiv:2410.16713, 2024
+        ·  
+      01 Jan 2024
+        ·  
+      arXiv:2410.16713
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2406.10229" class="citation-image" aria-label="Quantifying variance in evaluation benchmarks">
+      <img src="" alt="Quantifying variance in evaluation benchmarks" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2406.10229" class="citation-title">
+      Quantifying variance in evaluation benchmarks
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Lovish Madaan, Aaditya K Singh, Rylan Schaeffer, Andrew Poulton, Sanmi Koyejo, Pontus Stenetorp, Sharan Narang, Dieuwke Hupkes
+    </div>
+
+    <div class="citation-details">
+      arXiv preprint arXiv:2406.10229, 2024
+        ·  
+      01 Jan 2024
+        ·  
+      arXiv:2406.10229
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2412.06966" class="citation-image" aria-label="Machine Unlearning Doesn't Do What You Think: Lessons for Generative AI Policy, Research, and Practice">
+      <img src="" alt="Machine Unlearning Doesn't Do What You Think: Lessons for Generative AI Policy, Research, and Practice" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2412.06966" class="citation-title">
+      Machine Unlearning Doesn't Do What You Think: Lessons for Generative AI Policy, Research, and Practice
+    </a>
+
+    <div class="citation-authors" data-tooltip="A Feder Cooper, Christopher A Choquette-Choo, Miranda Bogen, Matthew Jagielski, Katja Filippova, Ken Ziyu Liu, Alexandra Chouldechova, Jamie Hayes, Yangsibo Huang, Niloofar Mireshghallah, Ilia Shumailov, Eleni Triantafillou, Peter Kairouz, Nicole Mitchell, Percy Liang, Daniel E Ho, Yejin Choi, Sanmi Koyejo, Fernando Delgado, James Grimmelmann, Vitaly Shmatikov, Christopher De Sa, Solon Barocas, Amy Cyphert, Mark Lemley, Jennifer Wortman Vaughan, Miles Brundage, David Bau, Seth Neel, Abigail Z Jacobs, Andreas Terzis, Hanna Wallach, Nicolas Papernot, Katherine Lee " tabindex="0">
+      A Feder Cooper, Christopher A Choquette-Choo, Miranda Bogen, Matthew Jagielski, Katja Filippova, ..., Abigail Z Jacobs, Andreas Terzis, Hanna Wallach, Nicolas Papernot, Katherine Lee
+    </div>
+
+    <div class="citation-details">
+      arXiv preprint arXiv:2412.06966, 2024
+        ·  
+      01 Jan 2024
+        ·  
+      arXiv:2412.06966
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://www.medrxiv.org/content/10.1101/2024.04.15.24305869.abstract" class="citation-image" aria-label="A systematic review of testing and evaluation of healthcare applications of large language models (LLMs)">
+      <img src="" alt="A systematic review of testing and evaluation of healthcare applications of large language models (LLMs)" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://www.medrxiv.org/content/10.1101/2024.04.15.24305869.abstract" class="citation-title">
+      A systematic review of testing and evaluation of healthcare applications of large language models (LLMs)
+    </a>
+
+    <div class="citation-authors" data-tooltip="Suhana Bedi, Yutong Liu, Lucy Orr-Ewing, Dev Dash, Sanmi Koyejo, Alison Callahan, Jason A Fries, Michael Wornow, Akshay Swaminathan, Lisa Soleymani Lehmann, Hyo Jung Hong, Mehr Kashyap, Akash R Chaurasia, Nirav R Shah, Karandeep Singh, Troy Tazbaz, Arnold Milstein, Michael A Pfeffer, Nigam H Shah " tabindex="0">
+      Suhana Bedi, Yutong Liu, Lucy Orr-Ewing, Dev Dash, Sanmi Koyejo, ..., Karandeep Singh, Troy Tazbaz, Arnold Milstein, Michael A Pfeffer, Nigam H Shah
+    </div>
+
+    <div class="citation-details">
+      medRxiv, 2024.04. 15.24305869, 2024
+        ·  
+      01 Jan 2024
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2412.03556" class="citation-image" aria-label="Best-of-n jailbreaking">
+      <img src="" alt="Best-of-n jailbreaking" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2412.03556" class="citation-title">
+      Best-of-n jailbreaking
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      John Hughes, Sara Price, Aengus Lynch, Rylan Schaeffer, Fazl Barez, Sanmi Koyejo, Henry Sleight, Erik Jones, Ethan Perez, Mrinank Sharma
+    </div>
+
+    <div class="citation-details">
+      arXiv preprint arXiv:2412.03556, 2024
+        ·  
+      01 Jan 2024
+        ·  
+      arXiv:2412.03556
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2407.14981" class="citation-image" aria-label="Open problems in technical ai governance">
+      <img src="" alt="Open problems in technical ai governance" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2407.14981" class="citation-title">
+      Open problems in technical ai governance
+    </a>
+
+    <div class="citation-authors" data-tooltip="Anka Reuel, Ben Bucknall, Stephen Casper, Tim Fist, Lisa Soder, Onni Aarne, Lewis Hammond, Lujain Ibrahim, Alan Chan, Peter Wills, Markus Anderljung, Ben Garfinkel, Lennart Heim, Andrew Trask, Gabriel Mukobi, Rylan Schaeffer, Mauricio Baker, Sara Hooker, Irene Solaiman, Alexandra Sasha Luccioni, Nitarshan Rajkumar, Nicolas Moës, Jeffrey Ladish, David Bau, Paul Bricman, Neel Guha, Jessica Newman, Yoshua Bengio, Tobin South, Alex Pentland, Sanmi Koyejo, Mykel J Kochenderfer, Robert Trager " tabindex="0">
+      Anka Reuel, Ben Bucknall, Stephen Casper, Tim Fist, Lisa Soder, ..., Tobin South, Alex Pentland, Sanmi Koyejo, Mykel J Kochenderfer, Robert Trager
+    </div>
+
+    <div class="citation-details">
+      arXiv preprint arXiv:2407.14981, 2024
+        ·  
+      01 Jan 2024
+        ·  
+      arXiv:2407.14981
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2401.06059" class="citation-image" aria-label="Investigating data contamination for pre-training language models">
+      <img src="" alt="Investigating data contamination for pre-training language models" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2401.06059" class="citation-title">
+      Investigating data contamination for pre-training language models
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Minhao Jiang, Ken Ziyu Liu, Ming Zhong, Rylan Schaeffer, Siru Ouyang, Jiawei Han, Sanmi Koyejo
+    </div>
+
+    <div class="citation-details">
+      arXiv preprint arXiv:2401.06059, 2024
+        ·  
+      01 Jan 2024
+        ·  
+      arXiv:2401.06059
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://openreview.net/forum?id=QASo5yumt4" class="citation-image" aria-label="Scaling laws for downstream task performance of large language models">
+      <img src="" alt="Scaling laws for downstream task performance of large language models" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://openreview.net/forum?id=QASo5yumt4" class="citation-title">
+      Scaling laws for downstream task performance of large language models
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Berivan Isik, Natalia Ponomareva, Hussein Hazimeh, Dimitris Paparas, Sergei Vassilvitskii, Sanmi Koyejo
+    </div>
+
+    <div class="citation-details">
+      ICLR 2024 Workshop on Mathematical and Empirical Understanding of Foundation …, 2024
+        ·  
+      01 Jan 2024
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2404.01413" class="citation-image" aria-label="Is model collapse inevitable? breaking the curse of recursion by accumulating real and synthetic data">
+      <img src="" alt="Is model collapse inevitable? breaking the curse of recursion by accumulating real and synthetic data" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2404.01413" class="citation-title">
+      Is model collapse inevitable? breaking the curse of recursion by accumulating real and synthetic data
+    </a>
+
+    <div class="citation-authors" data-tooltip="Matthias Gerstgrasser, Rylan Schaeffer, Apratim Dey, Rafael Rafailov, Henry Sleight, John Hughes, Tomasz Korbak, Rajashree Agrawal, Dhruv Pai, Andrey Gromov, Daniel A Roberts, Diyi Yang, David L Donoho, Sanmi Koyejo " tabindex="0">
+      Matthias Gerstgrasser, Rylan Schaeffer, Apratim Dey, Rafael Rafailov, Henry Sleight, ..., Andrey Gromov, Daniel A Roberts, Diyi Yang, David L Donoho, Sanmi Koyejo
+    </div>
+
+    <div class="citation-details">
+      arXiv preprint arXiv:2404.01413, 2024
+        ·  
+      01 Jan 2024
+        ·  
+      arXiv:2404.01413
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2407.04620" class="citation-image" aria-label="Learning to (learn at test time): Rnns with expressive hidden states">
+      <img src="" alt="Learning to (learn at test time): Rnns with expressive hidden states" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2407.04620" class="citation-title">
+      Learning to (learn at test time): Rnns with expressive hidden states
+    </a>
+
+    <div class="citation-authors" data-tooltip="Yu Sun, Xinhao Li, Karan Dalal, Jiarui Xu, Arjun Vikram, Genghan Zhang, Yann Dubois, Xinlei Chen, Xiaolong Wang, Sanmi Koyejo, Tatsunori Hashimoto, Carlos Guestrin " tabindex="0">
+      Yu Sun, Xinhao Li, Karan Dalal, Jiarui Xu, Arjun Vikram, ..., Xinlei Chen, Xiaolong Wang, Sanmi Koyejo, Tatsunori Hashimoto, Carlos Guestrin
+    </div>
+
+    <div class="citation-details">
+      arXiv preprint arXiv:2407.04620, 2024
+        ·  
+      01 Jan 2024
+        ·  
+      arXiv:2407.04620
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<h3 id="2023">2023</h3>
+
+<div class="citation">
+  
+    <a href="https://doi.org/gs6kmr" class="citation-image" aria-label="The Monarch Initiative in 2024: an analytic platform integrating phenotypes, genes and diseases across species">
+      <img src="" alt="The Monarch Initiative in 2024: an analytic platform integrating phenotypes, genes and diseases across species" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://doi.org/gs6kmr" class="citation-title">
+      The Monarch Initiative in 2024: an analytic platform integrating phenotypes, genes and diseases across species
+    </a>
+
+    <div class="citation-authors" data-tooltip="Tim E Putman, Kevin Schaper, Nicolas Matentzoglu, Vincent P Rubinetti, Faisal S Alquaddoomi, Corey Cox, J Harry Caufield, Glass Elsarboukh, Sarah Gehrke, Harshad Hegde, Justin T Reese, Ian Braun, Richard M Bruskiewich, Luca Cappelletti, Seth Carbon, Anita R Caron, Lauren E Chan, Christopher G Chute, Katherina G Cortes, Vinícius De Souza, Tommaso Fontana, Nomi L Harris, Emily L Hartley, Eric Hurwitz, Julius O B Jacobsen, Madan Krishnamurthy, Bryan J Laraway, James A McLaughlin, Julie A McMurry, Sierra A T Moxon, Kathleen R Mullen, Shawn T O’Neil, Kent A Shefchek, Ray Stefancsik, Sabrina Toro, Nicole A Vasilevsky, Ramona L Walls, Patricia L Whetzel, David Osumi-Sutherland, Damian Smedley, Peter N Robinson, Christopher J Mungall, Melissa A Haendel, Monica C Munoz-Torres " tabindex="0">
+      Tim E Putman, Kevin Schaper, Nicolas Matentzoglu, Vincent P Rubinetti, Faisal S Alquaddoomi, ..., Damian Smedley, Peter N Robinson, Christopher J Mungall, Melissa A Haendel, Monica C Munoz-Torres
+    </div>
+
+    <div class="citation-details">
+      Nucleic Acids Research
+        ·  
+      24 Nov 2023
+        ·  
+      doi:10.1093/nar/gkad1082
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://doi.org/gsvf5z" class="citation-image" aria-label="Integration of 168,000 samples reveals global patterns of the human gut microbiome">
+      <img src="" alt="Integration of 168,000 samples reveals global patterns of the human gut microbiome" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://doi.org/gsvf5z" class="citation-title">
+      Integration of 168,000 samples reveals global patterns of the human gut microbiome
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Richard J. Abdill, Samantha P. Graham, Vincent Rubinetti, Frank W. Albert, Casey S. Greene, Sean Davis, Ran Blekhman
+    </div>
+
+    <div class="citation-details">
+      openRxiv
+        ·  
+      11 Oct 2023
+        ·  
+      doi:10.1101/2023.10.11.560955
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2210.17237" class="citation-image" aria-label="Latent Multimodal Functional Graphical Model Estimation">
+      <img src="" alt="Latent Multimodal Functional Graphical Model Estimation" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2210.17237" class="citation-title">
+      Latent Multimodal Functional Graphical Model Estimation
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Katherine Tsai, Boxin Zhao, Sanmi Koyejo, Mladen Kolar
+    </div>
+
+    <div class="citation-details">
+      arXiv
+        ·  
+      03 Oct 2023
+        ·  
+      arXiv:2210.17237
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2202.01034" class="citation-image" aria-label="Diagnosing failures of fairness transfer across distribution shift in real-world medical settings">
+      <img src="" alt="Diagnosing failures of fairness transfer across distribution shift in real-world medical settings" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2202.01034" class="citation-title">
+      Diagnosing failures of fairness transfer across distribution shift in real-world medical settings
+    </a>
+
+    <div class="citation-authors" data-tooltip="Jessica Schrouff, Natalie Harris, Oluwasanmi Koyejo, Ibrahim Alabdulmohsin, Eva Schnider, Krista Opsahl-Ong, Alex Brown, Subhrajit Roy, Diana Mincu, Christina Chen, Awa Dieng, Yuan Liu, Vivek Natarajan, Alan Karthikesalingam, Katherine Heller, Silvia Chiappa, Alexander D'Amour " tabindex="0">
+      Jessica Schrouff, Natalie Harris, Oluwasanmi Koyejo, Ibrahim Alabdulmohsin, Eva Schnider, ..., Vivek Natarajan, Alan Karthikesalingam, Katherine Heller, Silvia Chiappa, Alexander D'Amour
+    </div>
+
+    <div class="citation-details">
+      arXiv
+        ·  
+      19 Jun 2023
+        ·  
+      arXiv:2202.01034
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2304.15004" class="citation-image" aria-label="Are Emergent Abilities of Large Language Models a Mirage?">
+      <img src="" alt="Are Emergent Abilities of Large Language Models a Mirage?" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2304.15004" class="citation-title">
+      Are Emergent Abilities of Large Language Models a Mirage?
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Rylan Schaeffer, Brando Miranda, Sanmi Koyejo
+    </div>
+
+    <div class="citation-details">
+      arXiv
+        ·  
+      23 May 2023
+        ·  
+      arXiv:2304.15004
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://doi.org/gr5hb5" class="citation-image" aria-label="MyGeneset.info: an interactive and programmatic platform for community-curated and user-created collections of genes">
+      <img src="" alt="MyGeneset.info: an interactive and programmatic platform for community-curated and user-created collections of genes" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://doi.org/gr5hb5" class="citation-title">
+      MyGeneset.info: an interactive and programmatic platform for community-curated and user-created collections of genes
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Ricardo Avila, Vincent Rubinetti, Xinghua Zhou, Dongbo Hu, Zhongchao Qian, Marco Alvarado Cano, Everaldo Rodolpho, Ginger Tsueng, Casey Greene, Chunlei Wu
+    </div>
+
+    <div class="citation-details">
+      Nucleic Acids Research
+        ·  
+      18 Apr 2023
+        ·  
+      doi:10.1093/nar/gkad289
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2303.14151" class="citation-image" aria-label="Double Descent Demystified: Identifying, Interpreting &amp; Ablating the Sources of a Deep Learning Puzzle">
+      <img src="" alt="Double Descent Demystified: Identifying, Interpreting &amp; Ablating the Sources of a Deep Learning Puzzle" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2303.14151" class="citation-title">
+      Double Descent Demystified: Identifying, Interpreting &amp; Ablating the Sources of a Deep Learning Puzzle
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Rylan Schaeffer, Mikail Khona, Zachary Robertson, Akhilan Boopathy, Kateryna Pistunova, Jason W. Rocks, Ila Rani Fiete, Oluwasanmi Koyejo
+    </div>
+
+    <div class="citation-details">
+      arXiv
+        ·  
+      27 Mar 2023
+        ·  
+      arXiv:2303.14151
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2205.15891" class="citation-image" aria-label="One Policy is Enough: Parallel Exploration with a Single Policy is Near-Optimal for Reward-Free Reinforcement Learning">
+      <img src="" alt="One Policy is Enough: Parallel Exploration with a Single Policy is Near-Optimal for Reward-Free Reinforcement Learning" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2205.15891" class="citation-title">
+      One Policy is Enough: Parallel Exploration with a Single Policy is Near-Optimal for Reward-Free Reinforcement Learning
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Pedro Cisneros-Velarde, Boxiang Lyu, Sanmi Koyejo, Mladen Kolar
+    </div>
+
+    <div class="citation-details">
+      arXiv
+        ·  
+      03 Mar 2023
+        ·  
+      arXiv:2205.15891
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://doi.org/grmcb9" class="citation-image" aria-label="Hetnet connectivity search provides rapid insights into how two biomedical entities are related">
+      <img src="" alt="Hetnet connectivity search provides rapid insights into how two biomedical entities are related" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://doi.org/grmcb9" class="citation-title">
+      Hetnet connectivity search provides rapid insights into how two biomedical entities are related
+    </a>
+
+    <div class="citation-authors" data-tooltip="Daniel S. Himmelstein, Michael Zietz, Vincent Rubinetti, Kyle Kloster, Benjamin J. Heil, Faisal Alquaddoomi, Dongbo Hu, David N. Nicholson, Yun Hao, Blair D. Sullivan, Michael W. Nagle, Casey S. Greene " tabindex="0">
+      Daniel S. Himmelstein, Michael Zietz, Vincent Rubinetti, Kyle Kloster, Benjamin J. Heil, ..., David N. Nicholson, Yun Hao, Blair D. Sullivan, Michael W. Nagle, Casey S. Greene
+    </div>
+
+    <div class="citation-details">
+      openRxiv
+        ·  
+      07 Jan 2023
+        ·  
+      doi:10.1101/2023.01.05.522941
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2307.10569" class="citation-image" aria-label="Deceptive alignment monitoring">
+      <img src="" alt="Deceptive alignment monitoring" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2307.10569" class="citation-title">
+      Deceptive alignment monitoring
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Andres Carranza, Dhruv Pai, Rylan Schaeffer, Arnuv Tandon, Sanmi Koyejo
+    </div>
+
+    <div class="citation-details">
+      arXiv preprint arXiv:2307.10569, 2023
+        ·  
+      01 Jan 2023
+        ·  
+      arXiv:2307.10569
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2312.03096" class="citation-image" aria-label="What causes polysemanticity? an alternative origin story of mixed selectivity from incidental causes">
+      <img src="" alt="What causes polysemanticity? an alternative origin story of mixed selectivity from incidental causes" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2312.03096" class="citation-title">
+      What causes polysemanticity? an alternative origin story of mixed selectivity from incidental causes
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Victor Lecomte, Kushal Thaman, Rylan Schaeffer, Naomi Bashkansky, Trevor Chow, Sanmi Koyejo
+    </div>
+
+    <div class="citation-details">
+      arXiv preprint arXiv:2312.03096, 2023
+        ·  
+      01 Jan 2023
+        ·  
+      arXiv:2312.03096
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://openreview.net/forum?id=hO0c2tG2xL" class="citation-image" aria-label="Gpt-zip: Deep compression of finetuned large language models">
+      <img src="" alt="Gpt-zip: Deep compression of finetuned large language models" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://openreview.net/forum?id=hO0c2tG2xL" class="citation-title">
+      Gpt-zip: Deep compression of finetuned large language models
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Berivan Isik, Hermann Kumbong, Wanyi Ning, Xiaozhe Yao, Sanmi Koyejo, Ce Zhang
+    </div>
+
+    <div class="citation-details">
+      Workshop on Efficient Systems for Foundation Models@ ICML2023, 2023
+        ·  
+      01 Jan 2023
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://proceedings.mlr.press/v206/alabdulmohsin23a" class="citation-image" aria-label="Adapting to latent subgroup shifts via concepts and proxies">
+      <img src="" alt="Adapting to latent subgroup shifts via concepts and proxies" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://proceedings.mlr.press/v206/alabdulmohsin23a" class="citation-title">
+      Adapting to latent subgroup shifts via concepts and proxies
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Ibrahim Alabdulmohsin, Nicole Chiou, Alexander D’Amour, Arthur Gretton, Sanmi Koyejo, Matt J Kusner, Stephen R Pfohl, Olawale Salaudeen, Jessica Schrouff, Katherine Tsai
+    </div>
+
+    <div class="citation-details">
+      International Conference on Artificial Intelligence and Statistics, 9637-9661, 2023
+        ·  
+      01 Jan 2023
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/4846257e355f6923fc2a1fbe35099e91-Abstract-Conference.html" class="citation-image" aria-label="Self-supervised learning of representations for space generates multi-modular grid cells">
+      <img src="" alt="Self-supervised learning of representations for space generates multi-modular grid cells" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/4846257e355f6923fc2a1fbe35099e91-Abstract-Conference.html" class="citation-title">
+      Self-supervised learning of representations for space generates multi-modular grid cells
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Rylan Schaeffer, Mikail Khona, Tzuhsuan Ma, Cristobal Eyzaguirre, Sanmi Koyejo, Ila Fiete
+    </div>
+
+    <div class="citation-details">
+      Advances in Neural Information Processing Systems 36, 23140-23157, 2023
+        ·  
+      01 Jan 2023
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://openreview.net/forum?id=oCYjN48axE" class="citation-image" aria-label="Beyond scale: the diversity coefficient as a data quality metric demonstrates llms are pre-trained on formally diverse data">
+      <img src="" alt="Beyond scale: the diversity coefficient as a data quality metric demonstrates llms are pre-trained on formally diverse data" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://openreview.net/forum?id=oCYjN48axE" class="citation-title">
+      Beyond scale: the diversity coefficient as a data quality metric demonstrates llms are pre-trained on formally diverse data
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Alycia Lee, Brando Miranda, Sanmi Koyejo
+    </div>
+
+    <div class="citation-details">
+      [no publisher info]
+        ·  
+      01 Jan 2023
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://www.nature.com/articles/s41467-023-39631-x" class="citation-image" aria-label="Opportunistic detection of type 2 diabetes using deep learning from frontal chest radiographs">
+      <img src="" alt="Opportunistic detection of type 2 diabetes using deep learning from frontal chest radiographs" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://www.nature.com/articles/s41467-023-39631-x" class="citation-title">
+      Opportunistic detection of type 2 diabetes using deep learning from frontal chest radiographs
+    </a>
+
+    <div class="citation-authors" data-tooltip="Ayis Pyrros, Stephen M Borstelmann, Ramana Mantravadi, Zachary Zaiman, Kaesha Thomas, Brandon Price, Eugene Greenstein, Nasir Siddiqui, Melinda Willis, Ihar Shulhan, John Hines-Shah, Jeanne M Horowitz, Paul Nikolaidis, Matthew P Lungren, Jorge Mario Rodríguez-Fernández, Judy Wawira Gichoya, Sanmi Koyejo, Adam E Flanders, Nishith Khandwala, Amit Gupta, John W Garrett, Joseph Paul Cohen, Brian T Layden, Perry J Pickhardt, William Galanter " tabindex="0">
+      Ayis Pyrros, Stephen M Borstelmann, Ramana Mantravadi, Zachary Zaiman, Kaesha Thomas, ..., John W Garrett, Joseph Paul Cohen, Brian T Layden, Perry J Pickhardt, William Galanter
+    </div>
+
+    <div class="citation-details">
+      Nature communications 14 (1), 4039, 2023
+        ·  
+      01 Jan 2023
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2305.18766" class="citation-image" aria-label="Hifa: High-fidelity text-to-3d generation with advanced diffusion guidance">
+      <img src="" alt="Hifa: High-fidelity text-to-3d generation with advanced diffusion guidance" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2305.18766" class="citation-title">
+      Hifa: High-fidelity text-to-3d generation with advanced diffusion guidance
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Junzhe Zhu, Peiye Zhuang, Sanmi Koyejo
+    </div>
+
+    <div class="citation-details">
+      arXiv preprint arXiv:2305.18766, 2023
+        ·  
+      01 Jan 2023
+        ·  
+      arXiv:2305.18766
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://www.spiedigitallibrary.org/journals/journal-of-medical-imaging/volume-10/issue-6/061104/Toward-fairness-in-artificial-intelligence-for-medical-image-analysis/10.1117/1.JMI.10.6.061104.short" class="citation-image" aria-label="Toward fairness in artificial intelligence for medical image analysis: identification and mitigation of potential biases in the roadmap from data collection to model deployment">
+      <img src="" alt="Toward fairness in artificial intelligence for medical image analysis: identification and mitigation of potential biases in the roadmap from data collection to model deployment" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://www.spiedigitallibrary.org/journals/journal-of-medical-imaging/volume-10/issue-6/061104/Toward-fairness-in-artificial-intelligence-for-medical-image-analysis/10.1117/1.JMI.10.6.061104.short" class="citation-title">
+      Toward fairness in artificial intelligence for medical image analysis: identification and mitigation of potential biases in the roadmap from data collection to model deployment
+    </a>
+
+    <div class="citation-authors" data-tooltip="Karen Drukker, Weijie Chen, Judy Gichoya, Nicholas Gruszauskas, Jayashree Kalpathy-Cramer, Sanmi Koyejo, Kyle Myers, Rui C Sá, Berkman Sahiner, Heather Whitney, Zi Zhang, Maryellen Giger " tabindex="0">
+      Karen Drukker, Weijie Chen, Judy Gichoya, Nicholas Gruszauskas, Jayashree Kalpathy-Cramer, ..., Rui C Sá, Berkman Sahiner, Heather Whitney, Zi Zhang, Maryellen Giger
+    </div>
+
+    <div class="citation-details">
+      Journal of Medical Imaging 10 (6), 061104-061104, 2023
+        ·  
+      01 Jan 2023
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2310.01405" class="citation-image" aria-label="Representation engineering: A top-down approach to ai transparency">
+      <img src="" alt="Representation engineering: A top-down approach to ai transparency" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2310.01405" class="citation-title">
+      Representation engineering: A top-down approach to ai transparency
+    </a>
+
+    <div class="citation-authors" data-tooltip="Andy Zou, Long Phan, Sarah Chen, James Campbell, Phillip Guo, Richard Ren, Alexander Pan, Xuwang Yin, Mantas Mazeika, Ann-Kathrin Dombrowski, Shashwat Goel, Nathaniel Li, Michael J Byun, Zifan Wang, Alex Mallen, Steven Basart, Sanmi Koyejo, Dawn Song, Matt Fredrikson, J Zico Kolter, Dan Hendrycks " tabindex="0">
+      Andy Zou, Long Phan, Sarah Chen, James Campbell, Phillip Guo, ..., Sanmi Koyejo, Dawn Song, Matt Fredrikson, J Zico Kolter, Dan Hendrycks
+    </div>
+
+    <div class="citation-details">
+      arXiv preprint arXiv:2310.01405, 2023
+        ·  
+      01 Jan 2023
+        ·  
+      arXiv:2310.01405
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://blogs.qub.ac.uk/wp-content/uploads/sites/7/2024/01/A-comprehensive-Assessment-of-Trustworthiness-in-GPT-Models.pdf" class="citation-image" aria-label="DecodingTrust: A Comprehensive Assessment of Trustworthiness in GPT Models.">
+      <img src="" alt="DecodingTrust: A Comprehensive Assessment of Trustworthiness in GPT Models." loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://blogs.qub.ac.uk/wp-content/uploads/sites/7/2024/01/A-comprehensive-Assessment-of-Trustworthiness-in-GPT-Models.pdf" class="citation-title">
+      DecodingTrust: A Comprehensive Assessment of Trustworthiness in GPT Models.
+    </a>
+
+    <div class="citation-authors" data-tooltip="Boxin Wang, Weixin Chen, Hengzhi Pei, Chulin Xie, Mintong Kang, Chenhui Zhang, Chejian Xu, Zidi Xiong, Ritik Dutta, Rylan Schaeffer, Sang T Truong, Simran Arora, Mantas Mazeika, Dan Hendrycks, Zinan Lin, Yu Cheng, Sanmi Koyejo, Dawn Song, Bo Li " tabindex="0">
+      Boxin Wang, Weixin Chen, Hengzhi Pei, Chulin Xie, Mintong Kang, ..., Zinan Lin, Yu Cheng, Sanmi Koyejo, Dawn Song, Bo Li
+    </div>
+
+    <div class="citation-details">
+      NeurIPS, 2023
+        ·  
+      01 Jan 2023
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/adc98a266f45005c403b8311ca7e8bd7-Abstract-Conference.html" class="citation-image" aria-label="Are emergent abilities of large language models a mirage?">
+      <img src="" alt="Are emergent abilities of large language models a mirage?" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/adc98a266f45005c403b8311ca7e8bd7-Abstract-Conference.html" class="citation-title">
+      Are emergent abilities of large language models a mirage?
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Rylan Schaeffer, Brando Miranda, Sanmi Koyejo
+    </div>
+
+    <div class="citation-details">
+      Advances in neural information processing systems 36, 55565-55581, 2023
+        ·  
+      01 Jan 2023
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<h3 id="2022">2022</h3>
+
+<div class="citation">
+  
+    <a href="https://doi.org/gsd85n" class="citation-image" aria-label="Hetnet connectivity search provides rapid insights into how biomedical entities are related">
+      <img src="" alt="Hetnet connectivity search provides rapid insights into how biomedical entities are related" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://doi.org/gsd85n" class="citation-title">
+      Hetnet connectivity search provides rapid insights into how biomedical entities are related
+    </a>
+
+    <div class="citation-authors" data-tooltip="Daniel S Himmelstein, Michael Zietz, Vincent Rubinetti, Kyle Kloster, Benjamin J Heil, Faisal Alquaddoomi, Dongbo Hu, David N Nicholson, Yun Hao, Blair D Sullivan, Michael W Nagle, Casey S Greene " tabindex="0">
+      Daniel S Himmelstein, Michael Zietz, Vincent Rubinetti, Kyle Kloster, Benjamin J Heil, ..., David N Nicholson, Yun Hao, Blair D Sullivan, Michael W Nagle, Casey S Greene
+    </div>
+
+    <div class="citation-details">
+      GigaScience
+        ·  
+      28 Dec 2022
+        ·  
+      doi:10.1093/gigascience/giad047
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2212.11254" class="citation-image" aria-label="Adapting to Latent Subgroup Shifts via Concepts and Proxies">
+      <img src="" alt="Adapting to Latent Subgroup Shifts via Concepts and Proxies" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2212.11254" class="citation-title">
+      Adapting to Latent Subgroup Shifts via Concepts and Proxies
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Ibrahim Alabdulmohsin, Nicole Chiou, Alexander D'Amour, Arthur Gretton, Sanmi Koyejo, Matt J. Kusner, Stephen R. Pfohl, Olawale Salaudeen, Jessica Schrouff, Katherine Tsai
+    </div>
+
+    <div class="citation-details">
+      arXiv
+        ·  
+      22 Dec 2022
+        ·  
+      arXiv:2212.11254
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2201.12947" class="citation-image" aria-label="Fair Wrapping for Black-box Predictions">
+      <img src="" alt="Fair Wrapping for Black-box Predictions" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2201.12947" class="citation-title">
+      Fair Wrapping for Black-box Predictions
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Alexander Soen, Ibrahim Alabdulmohsin, Sanmi Koyejo, Yishay Mansour, Nyalleng Moorosi, Richard Nock, Ke Sun, Lexing Xie
+    </div>
+
+    <div class="citation-details">
+      arXiv
+        ·  
+      03 Nov 2022
+        ·  
+      arXiv:2201.12947
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2205.15860" class="citation-image" aria-label="A Reduction to Binary Approach for Debiasing Multiclass Datasets">
+      <img src="" alt="A Reduction to Binary Approach for Debiasing Multiclass Datasets" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2205.15860" class="citation-title">
+      A Reduction to Binary Approach for Debiasing Multiclass Datasets
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Ibrahim Alabdulmohsin, Jessica Schrouff, Oluwasanmi Koyejo
+    </div>
+
+    <div class="citation-details">
+      arXiv
+        ·  
+      11 Oct 2022
+        ·  
+      arXiv:2205.15860
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2011.01516" class="citation-image" aria-label="Quadratic Metric Elicitation for Fairness and Beyond">
+      <img src="" alt="Quadratic Metric Elicitation for Fairness and Beyond" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2011.01516" class="citation-title">
+      Quadratic Metric Elicitation for Fairness and Beyond
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Gaurush Hiranandani, Jatin Mathur, Harikrishna Narasimhan, Oluwasanmi Koyejo
+    </div>
+
+    <div class="citation-details">
+      arXiv
+        ·  
+      23 Aug 2022
+        ·  
+      arXiv:2011.01516
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2202.01832" class="citation-image" aria-label="Adversarially Robust Models may not Transfer Better: Sufficient Conditions for Domain Transferability from the View of Regularization">
+      <img src="" alt="Adversarially Robust Models may not Transfer Better: Sufficient Conditions for Domain Transferability from the View of Regularization" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2202.01832" class="citation-title">
+      Adversarially Robust Models may not Transfer Better: Sufficient Conditions for Domain Transferability from the View of Regularization
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Xiaojun Xu, Jacky Yibo Zhang, Evelyn Ma, Danny Son, Oluwasanmi Koyejo, Bo Li
+    </div>
+
+    <div class="citation-details">
+      arXiv
+        ·  
+      27 Jun 2022
+        ·  
+      arXiv:2202.01832
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://doi.org/gstx7j" class="citation-image" aria-label="MolEvolvR: A web-app for characterizing proteins using molecular evolution and phylogeny">
+      <img src="" alt="MolEvolvR: A web-app for characterizing proteins using molecular evolution and phylogeny" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://doi.org/gstx7j" class="citation-title">
+      MolEvolvR: A web-app for characterizing proteins using molecular evolution and phylogeny
+    </a>
+
+    <div class="citation-authors" data-tooltip="Faisal S Alquaddoomi, Joseph T Burke, Lo Sosinski, David A Mayer, Evan P Brenner, Samuel Z Chen, Jacob D Krol, Ethan P Wolfe, Vincent P Rubinetti, Shaddai Amolitos, Kellen M Reason, John B Johnston, Janani Ravi " tabindex="0">
+      Faisal S Alquaddoomi, Joseph T Burke, Lo Sosinski, David A Mayer, Evan P Brenner, ..., Vincent P Rubinetti, Shaddai Amolitos, Kellen M Reason, John B Johnston, Janani Ravi
+    </div>
+
+    <div class="citation-details">
+      openRxiv
+        ·  
+      22 Feb 2022
+        ·  
+      doi:10.1101/2022.02.18.461833
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://proceedings.mlr.press/v162/xu22n.html" class="citation-image" aria-label="Adversarially robust models may not transfer better: Sufficient conditions for domain transferability from the view of regularization">
+      <img src="" alt="Adversarially robust models may not transfer better: Sufficient conditions for domain transferability from the view of regularization" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://proceedings.mlr.press/v162/xu22n.html" class="citation-title">
+      Adversarially robust models may not transfer better: Sufficient conditions for domain transferability from the view of regularization
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Xiaojun Xu, Jacky Y Zhang, Evelyn Ma, Hyun Ho Son, Sanmi Koyejo, Bo Li
+    </div>
+
+    <div class="citation-details">
+      International Conference on Machine Learning, 24770-24802, 2022
+        ·  
+      01 Jan 2022
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000057" class="citation-image" aria-label="Validation of a deep learning, value-based care model to predict mortality and comorbidities from chest radiographs in COVID-19">
+      <img src="" alt="Validation of a deep learning, value-based care model to predict mortality and comorbidities from chest radiographs in COVID-19" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000057" class="citation-title">
+      Validation of a deep learning, value-based care model to predict mortality and comorbidities from chest radiographs in COVID-19
+    </a>
+
+    <div class="citation-authors" data-tooltip="Ayis Pyrros, Jorge Rodriguez Fernandez, Stephen M Borstelmann, Adam Flanders, Daniel Wenzke, Eric Hart, Jeanne M Horowitz, Paul Nikolaidis, Melinda Willis, Andrew Chen, Patrick Cole, Nasir Siddiqui, Momin Muzaffar, Nadir Muzaffar, Jennifer McVean, Martha Menchaca, Aggelos K Katsaggelos, Sanmi Koyejo, William Galanter " tabindex="0">
+      Ayis Pyrros, Jorge Rodriguez Fernandez, Stephen M Borstelmann, Adam Flanders, Daniel Wenzke, ..., Jennifer McVean, Martha Menchaca, Aggelos K Katsaggelos, Sanmi Koyejo, William Galanter
+    </div>
+
+    <div class="citation-details">
+      PLOS Digital Health 1 (8), e0000057, 2022
+        ·  
+      01 Jan 2022
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/a9c7200b0f37dc58e6bb97d45ff8faf1-Abstract-Conference.html" class="citation-image" aria-label="CoPur: certifiably robust collaborative inference via feature purification">
+      <img src="" alt="CoPur: certifiably robust collaborative inference via feature purification" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/a9c7200b0f37dc58e6bb97d45ff8faf1-Abstract-Conference.html" class="citation-title">
+      CoPur: certifiably robust collaborative inference via feature purification
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Jing Liu, Chulin Xie, Sanmi Koyejo, Bo Li
+    </div>
+
+    <div class="citation-details">
+      Advances in Neural Information Processing Systems 35, 26645-26657, 2022
+        ·  
+      01 Jan 2022
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/10eaa0aae94b34308e9b3fa7b677cbe1-Abstract-Conference.html" class="citation-image" aria-label="A reduction to binary approach for debiasing multiclass datasets">
+      <img src="" alt="A reduction to binary approach for debiasing multiclass datasets" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/10eaa0aae94b34308e9b3fa7b677cbe1-Abstract-Conference.html" class="citation-title">
+      A reduction to binary approach for debiasing multiclass datasets
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Ibrahim M Alabdulmohsin, Jessica Schrouff, Sanmi Koyejo
+    </div>
+
+    <div class="citation-details">
+      Advances in Neural Information Processing Systems 35, 2480-2493, 2022
+        ·  
+      01 Jan 2022
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2205.01094" class="citation-image" aria-label="A word is worth a thousand dollars: Adversarial attack on tweets fools stock predictions">
+      <img src="" alt="A word is worth a thousand dollars: Adversarial attack on tweets fools stock predictions" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2205.01094" class="citation-title">
+      A word is worth a thousand dollars: Adversarial attack on tweets fools stock predictions
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Yong Xie, Dakuo Wang, Pin-Yu Chen, Jinjun Xiong, Sijia Liu, Sanmi Koyejo
+    </div>
+
+    <div class="citation-details">
+      arXiv preprint arXiv:2205.01094, 2022
+        ·  
+      01 Jan 2022
+        ·  
+      arXiv:2205.01094
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://www.mdpi.com/2075-1729/12/8/1277" class="citation-image" aria-label="A contextual-bandit-based approach for informed decision-making in clinical trials">
+      <img src="" alt="A contextual-bandit-based approach for informed decision-making in clinical trials" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://www.mdpi.com/2075-1729/12/8/1277" class="citation-title">
+      A contextual-bandit-based approach for informed decision-making in clinical trials
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Yogatheesan Varatharajah, Brent Berry
+    </div>
+
+    <div class="citation-details">
+      Life 12 (8), 1277, 2022
+        ·  
+      01 Jan 2022
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://scholar.google.com/scholar?cluster=14497874838491448528&hl=en&oi=scholarr" class="citation-image" aria-label="Representation engineering: A top-down approach to ai transparency, 2023">
+      <img src="" alt="Representation engineering: A top-down approach to ai transparency, 2023" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://scholar.google.com/scholar?cluster=14497874838491448528&hl=en&oi=scholarr" class="citation-title">
+      Representation engineering: A top-down approach to ai transparency, 2023
+    </a>
+
+    <div class="citation-authors" data-tooltip="Andy Zou, Long Phan, Sarah Chen, James Campbell, Phillip Guo, Richard Ren, Alexander Pan, Xuwang Yin, Mantas Mazeika, Ann-Kathrin Dombrowski, Shashwat Goel, Nathaniel Li, Michael J Byun, Zifan Wang, Alex Mallen, Steven Basart, Sanmi Koyejo, Dawn Song, Matt Fredrikson, J Zico Kolter, Dan Hendrycks " tabindex="0">
+      Andy Zou, Long Phan, Sarah Chen, James Campbell, Phillip Guo, ..., Sanmi Koyejo, Dawn Song, Matt Fredrikson, J Zico Kolter, Dan Hendrycks
+    </div>
+
+    <div class="citation-details">
+      URL https://arxiv. org/abs/2310.01405 97, 2022
+        ·  
+      01 Jan 2022
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2202.01034" class="citation-image" aria-label="Diagnosing failures of fairness transfer across distribution shift in real-world medical settings">
+      <img src="" alt="Diagnosing failures of fairness transfer across distribution shift in real-world medical settings" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2202.01034" class="citation-title">
+      Diagnosing failures of fairness transfer across distribution shift in real-world medical settings
+    </a>
+
+    <div class="citation-authors" data-tooltip="Jessica Schrouff, Natalie Harris, Oluwasanmi Koyejo, Ibrahim Alabdulmohsin, Eva Schnider, Krista Opsahl-Ong, Alex Brown, Subhrajit Roy, Diana Mincu, Christina Chen, Awa Dieng, Yuan Liu, Vivek Natarajan, Alan Karthikesalingam, Katherine Heller, Silvia Chiappa, Alexander D'Amour " tabindex="0">
+      Jessica Schrouff, Natalie Harris, Oluwasanmi Koyejo, Ibrahim Alabdulmohsin, Eva Schnider, ..., Vivek Natarajan, Alan Karthikesalingam, Katherine Heller, Silvia Chiappa, Alexander D'Amour
+    </div>
+
+    <div class="citation-details">
+      arXiv
+        ·  
+      19 Jun 2023
+        ·  
+      arXiv:2202.01034
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<h3 id="2021">2021</h3>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2011.05601" class="citation-image" aria-label="A Nonconvex Framework for Structured Dynamic Covariance Recovery">
+      <img src="" alt="A Nonconvex Framework for Structured Dynamic Covariance Recovery" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2011.05601" class="citation-title">
+      A Nonconvex Framework for Structured Dynamic Covariance Recovery
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Katherine Tsai, Mladen Kolar, Oluwasanmi Koyejo
+    </div>
+
+    <div class="citation-details">
+      arXiv
+        ·  
+      20 Jul 2021
+        ·  
+      arXiv:2011.05601
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2006.14512" class="citation-image" aria-label="Uncovering the Connections Between Adversarial Transferability and Knowledge Transferability">
+      <img src="" alt="Uncovering the Connections Between Adversarial Transferability and Knowledge Transferability" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2006.14512" class="citation-title">
+      Uncovering the Connections Between Adversarial Transferability and Knowledge Transferability
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Kaizhao Liang, Jacky Y. Zhang, Boxin Wang, Zhuolin Yang, Oluwasanmi Koyejo, Bo Li
+    </div>
+
+    <div class="citation-details">
+      arXiv
+        ·  
+      12 Jul 2021
+        ·  
+      arXiv:2006.14512
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2102.09492" class="citation-image" aria-label="Optimizing Black-box Metrics with Iterative Example Weighting">
+      <img src="" alt="Optimizing Black-box Metrics with Iterative Example Weighting" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2102.09492" class="citation-title">
+      Optimizing Black-box Metrics with Iterative Example Weighting
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Gaurush Hiranandani, Jatin Mathur, Harikrishna Narasimhan, Mahdi Milani Fard, Oluwasanmi Koyejo
+    </div>
+
+    <div class="citation-details">
+      arXiv
+        ·  
+      25 Jun 2021
+        ·  
+      arXiv:2102.09492
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/1912.04977" class="citation-image" aria-label="Advances and Open Problems in Federated Learning">
+      <img src="" alt="Advances and Open Problems in Federated Learning" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/1912.04977" class="citation-title">
+      Advances and Open Problems in Federated Learning
+    </a>
+
+    <div class="citation-authors" data-tooltip="Peter Kairouz, H. Brendan McMahan, Brendan Avent, AurÃ©lien Bellet, Mehdi Bennis, Arjun Nitin Bhagoji, Kallista Bonawitz, Zachary Charles, Graham Cormode, Rachel Cummings, Rafael G. L. D'Oliveira, Hubert Eichner, Salim El Rouayheb, David Evans, Josh Gardner, Zachary Garrett, AdriÃ GascÃ³n, Badih Ghazi, Phillip B. Gibbons, Marco Gruteser, Zaid Harchaoui, Chaoyang He, Lie He, Zhouyuan Huo, Ben Hutchinson, Justin Hsu, Martin Jaggi, Tara Javidi, Gauri Joshi, Mikhail Khodak, Jakub KoneÄnÃ½, Aleksandra Korolova, Farinaz Koushanfar, Sanmi Koyejo, TancrÃ¨de Lepoint, Yang Liu, Prateek Mittal, Mehryar Mohri, Richard Nock, Ayfer ÃzgÃ¼r, Rasmus Pagh, Mariana Raykova, Hang Qi, Daniel Ramage, Ramesh Raskar, Dawn Song, Weikang Song, Sebastian U. Stich, Ziteng Sun, Ananda Theertha Suresh, Florian TramÃ¨r, Praneeth Vepakomma, Jianyu Wang, Li Xiong, Zheng Xu, Qiang Yang, Felix X. Yu, Han Yu, Sen Zhao " tabindex="0">
+      Peter Kairouz, H. Brendan McMahan, Brendan Avent, AurÃ©lien Bellet, Mehdi Bennis, ..., Zheng Xu, Qiang Yang, Felix X. Yu, Han Yu, Sen Zhao
+    </div>
+
+    <div class="citation-details">
+      arXiv
+        ·  
+      10 Mar 2021
+        ·  
+      arXiv:1912.04977
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2007.00715" class="citation-image" aria-label="Bayesian Coresets: Revisiting the Nonconvex Optimization Perspective">
+      <img src="" alt="Bayesian Coresets: Revisiting the Nonconvex Optimization Perspective" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2007.00715" class="citation-title">
+      Bayesian Coresets: Revisiting the Nonconvex Optimization Perspective
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Jacky Y. Zhang, Rajiv Khanna, Anastasios Kyrillidis, Oluwasanmi Koyejo
+    </div>
+
+    <div class="citation-details">
+      arXiv
+        ·  
+      01 Mar 2021
+        ·  
+      arXiv:2007.00715
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2007.05597" class="citation-image" aria-label="EMIXER: End-to-end Multimodal X-ray Generation via Self-supervision">
+      <img src="" alt="EMIXER: End-to-end Multimodal X-ray Generation via Self-supervision" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2007.05597" class="citation-title">
+      EMIXER: End-to-end Multimodal X-ray Generation via Self-supervision
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Siddharth Biswal, Peiye Zhuang, Ayis Pyrros, Nasir Siddiqui, Sanmi Koyejo, Jimeng Sun
+    </div>
+
+    <div class="citation-details">
+      arXiv
+        ·  
+      19 Jan 2021
+        ·  
+      arXiv:2007.05597
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="http://proceedings.mlr.press/v130/zhang21g.html" class="citation-image" aria-label="Bayesian coresets: Revisiting the nonconvex optimization perspective">
+      <img src="" alt="Bayesian coresets: Revisiting the nonconvex optimization perspective" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="http://proceedings.mlr.press/v130/zhang21g.html" class="citation-title">
+      Bayesian coresets: Revisiting the nonconvex optimization perspective
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Jacky Zhang, Rajiv Khanna, Anastasios Kyrillidis, Sanmi Koyejo
+    </div>
+
+    <div class="citation-details">
+      International Conference on Artificial Intelligence and Statistics, 2782-2790, 2021
+        ·  
+      01 Jan 2021
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://academic.oup.com/biomet/article-abstract/108/2/425/5901536" class="citation-image" aria-label="Estimating differential latent variable graphical models with applications to brain connectivity">
+      <img src="" alt="Estimating differential latent variable graphical models with applications to brain connectivity" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://academic.oup.com/biomet/article-abstract/108/2/425/5901536" class="citation-title">
+      Estimating differential latent variable graphical models with applications to brain connectivity
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Sen Na, Mladen Kolar, Oluwasanmi Koyejo
+    </div>
+
+    <div class="citation-details">
+      Biometrika 108 (2), 425-442, 2021
+        ·  
+      01 Jan 2021
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="http://proceedings.mlr.press/v139/liang21b.html" class="citation-image" aria-label="Uncovering the connections between adversarial transferability and knowledge transferability">
+      <img src="" alt="Uncovering the connections between adversarial transferability and knowledge transferability" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="http://proceedings.mlr.press/v139/liang21b.html" class="citation-title">
+      Uncovering the connections between adversarial transferability and knowledge transferability
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Kaizhao Liang, Jacky Y Zhang, Boxin Wang, Zhuolin Yang, Sanmi Koyejo, Bo Li
+    </div>
+
+    <div class="citation-details">
+      International Conference on Machine Learning, 6577-6587, 2021
+        ·  
+      01 Jan 2021
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://scholar.google.com/scholar?cluster=2044711423946989929&hl=en&oi=scholarr" class="citation-image" aria-label="Mariana Raykova, Dawn Song, Weikang Song, Sebastian U">
+      <img src="" alt="Mariana Raykova, Dawn Song, Weikang Song, Sebastian U" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://scholar.google.com/scholar?cluster=2044711423946989929&hl=en&oi=scholarr" class="citation-title">
+      Mariana Raykova, Dawn Song, Weikang Song, Sebastian U
+    </a>
+
+    <div class="citation-authors" data-tooltip="Peter Kairouz, H Brendan McMahan, Brendan Avent, Aurélien Bellet, Mehdi Bennis, Arjun Nitin Bhagoji, Kallista Bonawitz, Zachary Charles, Graham Cormode, Rachel Cummings, Rafael GL D’Oliveira, Hubert Eichner, Salim El Rouayheb, David Evans, Josh Gardner, Zachary Garrett, Adrià Gascón, Badih Ghazi, Phillip B Gibbons, Marco Gruteser, Zaid Harchaoui, Chaoyang He, Lie He, Zhouyuan Huo, Ben Hutchinson, Justin Hsu, Martin Jaggi, Tara Javidi, Gauri Joshi, Mikhail Khodak, Jakub Konecný, Aleksandra Korolova, Farinaz Koushanfar, Sanmi Koyejo, Tancrède Lepoint, Yang Liu, Prateek Mittal, Mehryar Mohri, Richard Nock, Ayfer Özgür, Rasmus Pagh, Hang Qi, Daniel Ramage, Ramesh Raskar " tabindex="0">
+      Peter Kairouz, H Brendan McMahan, Brendan Avent, Aurélien Bellet, Mehdi Bennis, ..., Ayfer Özgür, Rasmus Pagh, Hang Qi, Daniel Ramage, Ramesh Raskar
+    </div>
+
+    <div class="citation-details">
+      Stich, Ziteng Sun, Ananda Theertha Suresh, Florian Tramèr, Praneeth …, 2021
+        ·  
+      01 Jan 2021
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2107.06917" class="citation-image" aria-label="A field guide to federated optimization">
+      <img src="" alt="A field guide to federated optimization" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2107.06917" class="citation-title">
+      A field guide to federated optimization
+    </a>
+
+    <div class="citation-authors" data-tooltip="Jianyu Wang, Zachary Charles, Zheng Xu, Gauri Joshi, H Brendan McMahan, Maruan Al-Shedivat, Galen Andrew, Salman Avestimehr, Katharine Daly, Deepesh Data, Suhas Diggavi, Hubert Eichner, Advait Gadhikar, Zachary Garrett, Antonious M Girgis, Filip Hanzely, Andrew Hard, Chaoyang He, Samuel Horvath, Zhouyuan Huo, Alex Ingerman, Martin Jaggi, Tara Javidi, Peter Kairouz, Satyen Kale, Sai Praneeth Karimireddy, Jakub Konecny, Sanmi Koyejo, Tian Li, Luyang Liu, Mehryar Mohri, Hang Qi, Sashank J Reddi, Peter Richtarik, Karan Singhal, Virginia Smith, Mahdi Soltanolkotabi, Weikang Song, Ananda Theertha Suresh, Sebastian U Stich, Ameet Talwalkar, Hongyi Wang, Blake Woodworth, Shanshan Wu, Felix X Yu, Honglin Yuan, Manzil Zaheer, Mi Zhang, Tong Zhang, Chunxiang Zheng, Chen Zhu, Wennan Zhu " tabindex="0">
+      Jianyu Wang, Zachary Charles, Zheng Xu, Gauri Joshi, H Brendan McMahan, ..., Mi Zhang, Tong Zhang, Chunxiang Zheng, Chen Zhu, Wennan Zhu
+    </div>
+
+    <div class="citation-details">
+      arXiv preprint arXiv:2107.06917, 2021
+        ·  
+      01 Jan 2021
+        ·  
+      arXiv:2107.06917
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://www.nowpublishers.com/article/Details/MAL-083" class="citation-image" aria-label="Advances and open problems in federated learning">
+      <img src="" alt="Advances and open problems in federated learning" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://www.nowpublishers.com/article/Details/MAL-083" class="citation-title">
+      Advances and open problems in federated learning
+    </a>
+
+    <div class="citation-authors" data-tooltip="Peter Kairouz, H Brendan McMahan, Brendan Avent, Aurélien Bellet, Mehdi Bennis, Arjun Nitin Bhagoji, Kallista Bonawitz, Zachary Charles, Graham Cormode, Rachel Cummings, Rafael GL D’Oliveira, Hubert Eichner, Salim El Rouayheb, David Evans, Josh Gardner, Zachary Garrett, Adrià Gascón, Badih Ghazi, Phillip B Gibbons, Marco Gruteser, Zaid Harchaoui, Chaoyang He, Lie He, Zhouyuan Huo, Ben Hutchinson, Justin Hsu, Martin Jaggi, Tara Javidi, Gauri Joshi, Mikhail Khodak, Jakub Konecný, Aleksandra Korolova, Farinaz Koushanfar, Sanmi Koyejo, Tancrède Lepoint, Yang Liu, Prateek Mittal, Mehryar Mohri, Richard Nock, Ayfer Özgür, Rasmus Pagh, Hang Qi, Daniel Ramage, Ramesh Raskar, Mariana Raykova, Dawn Song, Weikang Song, Sebastian U Stich, Ziteng Sun, Ananda Theertha Suresh, Florian Tramèr, Praneeth Vepakomma, Jianyu Wang, Li Xiong, Zheng Xu, Qiang Yang, Felix X Yu, Han Yu, Sen Zhao " tabindex="0">
+      Peter Kairouz, H Brendan McMahan, Brendan Avent, Aurélien Bellet, Mehdi Bennis, ..., Zheng Xu, Qiang Yang, Felix X Yu, Han Yu, Sen Zhao
+    </div>
+
+    <div class="citation-details">
+      Foundations and trends® in machine learning 14 (1–2), 1-210, 2021
+        ·  
+      01 Jan 2021
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<h3 id="2020">2020</h3>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/1911.09030" class="citation-image" aria-label="Local AdaAlter: Communication-Efficient Stochastic Gradient Descent with Adaptive Learning Rates">
+      <img src="" alt="Local AdaAlter: Communication-Efficient Stochastic Gradient Descent with Adaptive Learning Rates" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/1911.09030" class="citation-title">
+      Local AdaAlter: Communication-Efficient Stochastic Gradient Descent with Adaptive Learning Rates
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Cong Xie, Oluwasanmi Koyejo, Indranil Gupta, Haibin Lin
+    </div>
+
+    <div class="citation-details">
+      arXiv
+        ·  
+      08 Dec 2020
+        ·  
+      arXiv:1911.09030
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2007.13221" class="citation-image" aria-label="CSER: Communication-efficient SGD with Error Reset">
+      <img src="" alt="CSER: Communication-efficient SGD with Error Reset" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2007.13221" class="citation-title">
+      CSER: Communication-efficient SGD with Error Reset
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Cong Xie, Shuai Zheng, Oluwasanmi Koyejo, Indranil Gupta, Mu Li, Haibin Lin
+    </div>
+
+    <div class="citation-details">
+      arXiv
+        ·  
+      08 Dec 2020
+        ·  
+      arXiv:2007.13221
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://doi.org/c7np" class="citation-image" aria-label="Open collaborative writing with Manubot">
+      <img src="https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&amp;rev=2" alt="Open collaborative writing with Manubot" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    <i class="icon fa-solid fa-scroll"></i>
+
+    <a href="https://doi.org/c7np" class="citation-title">
+      Open collaborative writing with Manubot
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Daniel S. Himmelstein, Vincent Rubinetti, David R. Slochower, Dongbo Hu, Venkat S. Malladi, Casey S. Greene, Anthony Gitter
+    </div>
+
+    <div class="citation-details">
+      PLOS Computational Biology
+        ·  
+      04 Dec 2020
+        ·  
+      doi:10.1371/journal.pcbi.1007128
+    </div>
+
+    
+      
+        <div class="citation-description">
+          Lorem ipsum <em>dolor</em> <strong>sit amet</strong>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+        </div>
+      
+
+      
+        <div class="citation-buttons">
+          
+            
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://greenelab.github.io/meta-review/" data-tooltip="Manubot" data-style="bare" aria-label="Manubot">
+      <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewbox="-450 -250 900 500">  <g transform="scale(0.9)">    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="50" d="        M -125 125         L -125 -125        L 0 45        L 125 -125        L 125 125      "></path>    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="50" d="        M -200 -250        L -330 0         L -200 250      "></path>    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="50" d="        m 200 250         L 330 0        L 200 -250      "></path>    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="50" d="        M -330 0        L -370 0      "></path>    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="50" d="        M 330 0        L 370 0      "></path>    <circle cx="-455" cy="0" r="30" fill="none" stroke="currentColor" stroke-width="30"></circle>    <circle cx="455" cy="0" r="30" fill="none" stroke="currentColor" stroke-width="30"></circle>  </g></svg></span>
+      
+        <span>Manubot</span>
+      
+    </a>
+  </div>
+
+
+          
+            
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/greenelab/meta-review" data-tooltip="Source code" data-style="bare" aria-label="Source code">
+      <i class="icon fa-solid fa-code"></i>
+      
+        <span>Manuscript Source</span>
+      
+    </a>
+  </div>
+
+
+          
+            
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="http://manubot.org/" data-tooltip="Website" data-style="bare" aria-label="Website">
+      <i class="icon fa-solid fa-globe"></i>
+      
+        <span>Website</span>
+      
+    </a>
+  </div>
+
+
+          
+        </div>
+      
+
+      
+        
+
+
+  <div class="tags" data-repo="greenelab/meta-review" data-link="http://0.0.0.0:4001/papers/">
+    
+      <a href='http://0.0.0.0:4001/papers/?search="tag:%20open%20science"' class="tag" data-tooltip='Show items with the tag "open science"'>
+        open science
+      </a>
+    
+      <a href='http://0.0.0.0:4001/papers/?search="tag:%20collaboration"' class="tag" data-tooltip='Show items with the tag "collaboration"'>
+        collaboration
+      </a>
+    
+  </div>
+
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2006.12732" class="citation-image" aria-label="Fair Performance Metric Elicitation">
+      <img src="" alt="Fair Performance Metric Elicitation" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2006.12732" class="citation-title">
+      Fair Performance Metric Elicitation
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Gaurush Hiranandani, Harikrishna Narasimhan, Oluwasanmi Koyejo
+    </div>
+
+    <div class="citation-details">
+      arXiv
+        ·  
+      04 Nov 2020
+        ·  
+      arXiv:2006.12732
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2006.13485" class="citation-image" aria-label="Fairness with Overlapping Groups">
+      <img src="" alt="Fairness with Overlapping Groups" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2006.13485" class="citation-title">
+      Fairness with Overlapping Groups
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Forest Yang, Moustapha Cisse, Sanmi Koyejo
+    </div>
+
+    <div class="citation-details">
+      arXiv
+        ·  
+      25 Jun 2020
+        ·  
+      arXiv:2006.13485
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/2001.08572" class="citation-image" aria-label="Toward a Controllable Disentanglement Network">
+      <img src="" alt="Toward a Controllable Disentanglement Network" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/2001.08572" class="citation-title">
+      Toward a Controllable Disentanglement Network
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Zengjie Song, Oluwasanmi Koyejo, Jiangshe Zhang
+    </div>
+
+    <div class="citation-details">
+      arXiv
+        ·  
+      23 Jun 2020
+        ·  
+      arXiv:2001.08572
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://doi.org/gg2mjh" class="citation-image" aria-label="Compressing gene expression data using multiple latent space dimensionalities learns complementary biological representations">
+      <img src="" alt="Compressing gene expression data using multiple latent space dimensionalities learns complementary biological representations" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://doi.org/gg2mjh" class="citation-title">
+      Compressing gene expression data using multiple latent space dimensionalities learns complementary biological representations
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Gregory P. Way, Michael Zietz, Vincent Rubinetti, Daniel S. Himmelstein, Casey S. Greene
+    </div>
+
+    <div class="citation-details">
+      Genome Biology
+        ·  
+      11 May 2020
+        ·  
+      doi:10.1186/s13059-020-02021-3
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/1910.13389" class="citation-image" aria-label="Learning Sparse Distributions using Iterative Hard Thresholding">
+      <img src="" alt="Learning Sparse Distributions using Iterative Hard Thresholding" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/1910.13389" class="citation-title">
+      Learning Sparse Distributions using Iterative Hard Thresholding
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Jacky Y. Zhang, Rajiv Khanna, Anastasios Kyrillidis, Oluwasanmi Koyejo
+    </div>
+
+    <div class="citation-details">
+      arXiv
+        ·  
+      03 Feb 2020
+        ·  
+      arXiv:1910.13389
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://ieeexplore.ieee.org/abstract/document/9141386/" class="citation-image" aria-label="Toward a controllable disentanglement network">
+      <img src="" alt="Toward a controllable disentanglement network" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://ieeexplore.ieee.org/abstract/document/9141386/" class="citation-title">
+      Toward a controllable disentanglement network
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Zengjie Song, Oluwasanmi Koyejo, Jiangshe Zhang
+    </div>
+
+    <div class="citation-details">
+      IEEE Transactions on Cybernetics 52 (4), 2491-2504, 2020
+        ·  
+      01 Jan 2020
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://proceedings.neurips.cc/paper/2020/hash/7ec2442aa04c157590b2fa1a7d093a33-Abstract.html" class="citation-image" aria-label="Fair performance metric elicitation">
+      <img src="" alt="Fair performance metric elicitation" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://proceedings.neurips.cc/paper/2020/hash/7ec2442aa04c157590b2fa1a7d093a33-Abstract.html" class="citation-title">
+      Fair performance metric elicitation
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Gaurush Hiranandani, Harikrishna Narasimhan, Sanmi Koyejo
+    </div>
+
+    <div class="citation-details">
+      Advances in Neural Information Processing Systems 33, 11083-11095, 2020
+        ·  
+      01 Jan 2020
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://proceedings.neurips.cc/paper/2020/hash/94cb02feb750f20bad8a85dfe7e18d11-Abstract.html" class="citation-image" aria-label="Cser: Communication-efficient sgd with error reset">
+      <img src="" alt="Cser: Communication-efficient sgd with error reset" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://proceedings.neurips.cc/paper/2020/hash/94cb02feb750f20bad8a85dfe7e18d11-Abstract.html" class="citation-title">
+      Cser: Communication-efficient sgd with error reset
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Cong Xie, Shuai Zheng, Sanmi Koyejo, Indranil Gupta, Mu Li, Haibin Lin
+    </div>
+
+    <div class="citation-details">
+      Advances in Neural Information Processing Systems 33, 12593-12603, 2020
+        ·  
+      01 Jan 2020
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="http://proceedings.mlr.press/v119/yang20f.html" class="citation-image" aria-label="On the consistency of top-k surrogate losses">
+      <img src="" alt="On the consistency of top-k surrogate losses" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="http://proceedings.mlr.press/v119/yang20f.html" class="citation-title">
+      On the consistency of top-k surrogate losses
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Forest Yang, Sanmi Koyejo
+    </div>
+
+    <div class="citation-details">
+      International Conference on Machine Learning, 10727-10735, 2020
+        ·  
+      01 Jan 2020
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://proceedings.neurips.cc/paper/2020/hash/29c0605a3bab4229e46723f89cf59d83-Abstract.html" class="citation-image" aria-label="Fairness with overlapping groups; a probabilistic perspective">
+      <img src="" alt="Fairness with overlapping groups; a probabilistic perspective" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://proceedings.neurips.cc/paper/2020/hash/29c0605a3bab4229e46723f89cf59d83-Abstract.html" class="citation-title">
+      Fairness with overlapping groups; a probabilistic perspective
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Forest Yang, Mouhamadou Cisse, Sanmi Koyejo
+    </div>
+
+    <div class="citation-details">
+      Advances in neural information processing systems 33, 4067-4078, 2020
+        ·  
+      01 Jan 2020
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://proceedings.mlr.press/v119/xie20c.html" class="citation-image" aria-label="Zeno++: Robust fully asynchronous SGD">
+      <img src="" alt="Zeno++: Robust fully asynchronous SGD" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://proceedings.mlr.press/v119/xie20c.html" class="citation-title">
+      Zeno++: Robust fully asynchronous SGD
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Cong Xie, Sanmi Koyejo, Indranil Gupta
+    </div>
+
+    <div class="citation-details">
+      International conference on machine learning, 10495-10503, 2020
+        ·  
+      01 Jan 2020
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://proceedings.mlr.press/v115/xie20a.html" class="citation-image" aria-label="Fall of empires: Breaking byzantine-tolerant sgd by inner product manipulation">
+      <img src="" alt="Fall of empires: Breaking byzantine-tolerant sgd by inner product manipulation" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://proceedings.mlr.press/v115/xie20a.html" class="citation-title">
+      Fall of empires: Breaking byzantine-tolerant sgd by inner product manipulation
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Cong Xie, Oluwasanmi Koyejo, Indranil Gupta
+    </div>
+
+    <div class="citation-details">
+      Uncertainty in artificial intelligence, 261-270, 2020
+        ·  
+      01 Jan 2020
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://doi.org/gg7m48" class="citation-image" aria-label="Constructing knowledge graphs and their biomedical applications">
+      <img src="https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg" alt="Constructing knowledge graphs and their biomedical applications" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://doi.org/gg7m48" class="citation-title">
+      Constructing knowledge graphs and their biomedical applications
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      David N. Nicholson, Casey S. Greene
+    </div>
+
+    <div class="citation-details">
+      Computational and Structural Biotechnology Journal
+        ·  
+      01 Jan 2020
+        ·  
+      doi:10.1016/j.csbj.2020.05.017
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<h3 id="2019">2019</h3>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/1908.09057" class="citation-image" aria-label="Consistent Classification with Generalized Metrics">
+      <img src="" alt="Consistent Classification with Generalized Metrics" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/1908.09057" class="citation-title">
+      Consistent Classification with Generalized Metrics
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Xiaoyan Wang, Ran Li, Bowei Yan, Oluwasanmi Koyejo
+    </div>
+
+    <div class="citation-details">
+      arXiv
+        ·  
+      27 Aug 2019
+        ·  
+      arXiv:1908.09057
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/1907.06134" class="citation-image" aria-label="FMRI data augmentation via synthesis">
+      <img src="" alt="FMRI data augmentation via synthesis" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/1907.06134" class="citation-title">
+      FMRI data augmentation via synthesis
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Peiye Zhuang, Alexander G. Schwing, Sanmi Koyejo
+    </div>
+
+    <div class="citation-details">
+      arXiv
+        ·  
+      16 Jul 2019
+        ·  
+      arXiv:1907.06134
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://doi.org/gfxjxf" class="citation-image" aria-label="Sequential compression of gene expression across dimensionalities and methods reveals no single best method or dimensionality">
+      <img src="" alt="Sequential compression of gene expression across dimensionalities and methods reveals no single best method or dimensionality" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://doi.org/gfxjxf" class="citation-title">
+      Sequential compression of gene expression across dimensionalities and methods reveals no single best method or dimensionality
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Gregory P. Way, Michael Zietz, Vincent Rubinetti, Daniel S. Himmelstein, Casey S. Greene
+    </div>
+
+    <div class="citation-details">
+      openRxiv
+        ·  
+      11 Mar 2019
+        ·  
+      doi:10.1101/573782
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://proceedings.mlr.press/v89/hiranandani19a.html" class="citation-image" aria-label="Performance metric elicitation from pairwise classifier comparisons">
+      <img src="" alt="Performance metric elicitation from pairwise classifier comparisons" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://proceedings.mlr.press/v89/hiranandani19a.html" class="citation-title">
+      Performance metric elicitation from pairwise classifier comparisons
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Gaurush Hiranandani, Shant Boodaghians, Ruta Mehta, Oluwasanmi Koyejo
+    </div>
+
+    <div class="citation-details">
+      The 22nd International Conference on Artificial Intelligence and Statistics …, 2019
+        ·  
+      01 Jan 2019
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://ieeexplore.ieee.org/abstract/document/8759585/" class="citation-image" aria-label="Fmri data augmentation via synthesis">
+      <img src="" alt="Fmri data augmentation via synthesis" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://ieeexplore.ieee.org/abstract/document/8759585/" class="citation-title">
+      Fmri data augmentation via synthesis
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Peiye Zhuang, Alexander G Schwing, Oluwasanmi Koyejo
+    </div>
+
+    <div class="citation-details">
+      2019 IEEE 16th international symposium on biomedical imaging (ISBI 2019 …, 2019
+        ·  
+      01 Jan 2019
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://link.springer.com/chapter/10.1007/978-3-030-46147-8_13" class="citation-image" aria-label="SLSGD: Secure and efficient distributed on-device machine learning">
+      <img src="" alt="SLSGD: Secure and efficient distributed on-device machine learning" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://link.springer.com/chapter/10.1007/978-3-030-46147-8_13" class="citation-title">
+      SLSGD: Secure and efficient distributed on-device machine learning
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Cong Xie, Oluwasanmi Koyejo, Indranil Gupta
+    </div>
+
+    <div class="citation-details">
+      Joint European Conference on Machine Learning and Knowledge Discovery in …, 2019
+        ·  
+      01 Jan 2019
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="http://proceedings.mlr.press/v89/khanna19a.html" class="citation-image" aria-label="Interpreting black box predictions using fisher kernels">
+      <img src="" alt="Interpreting black box predictions using fisher kernels" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="http://proceedings.mlr.press/v89/khanna19a.html" class="citation-title">
+      Interpreting black box predictions using fisher kernels
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Rajiv Khanna, Been Kim, Joydeep Ghosh, Sanmi Koyejo
+    </div>
+
+    <div class="citation-details">
+      The 22nd International Conference on Artificial Intelligence and Statistics …, 2019
+        ·  
+      01 Jan 2019
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/1907.09615" class="citation-image" aria-label="Towards realistic individual recourse and actionable explanations in black-box decision making systems">
+      <img src="" alt="Towards realistic individual recourse and actionable explanations in black-box decision making systems" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/1907.09615" class="citation-title">
+      Towards realistic individual recourse and actionable explanations in black-box decision making systems
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Shalmali Joshi, Oluwasanmi Koyejo, Warut Vijitbenjaronk, Been Kim, Joydeep Ghosh
+    </div>
+
+    <div class="citation-details">
+      arXiv preprint arXiv:1907.09615, 2019
+        ·  
+      01 Jan 2019
+        ·  
+      arXiv:1907.09615
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="http://openaccess.thecvf.com/content_CVPR_2019/html/Deshpande_Max-Sliced_Wasserstein_Distance_and_Its_Use_for_GANs_CVPR_2019_paper.html" class="citation-image" aria-label="Max-sliced wasserstein distance and its use for gans">
+      <img src="" alt="Max-sliced wasserstein distance and its use for gans" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="http://openaccess.thecvf.com/content_CVPR_2019/html/Deshpande_Max-Sliced_Wasserstein_Distance_and_Its_Use_for_GANs_CVPR_2019_paper.html" class="citation-title">
+      Max-sliced wasserstein distance and its use for gans
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Ishan Deshpande, Yuan-Ting Hu, Ruoyu Sun, Ayis Pyrros, Nasir Siddiqui, Sanmi Koyejo, Zhizhen Zhao, David Forsyth, Alexander G Schwing
+    </div>
+
+    <div class="citation-details">
+      Proceedings of the IEEE/CVF conference on computer vision and pattern …, 2019
+        ·  
+      01 Jan 2019
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="http://proceedings.mlr.press/v97/xie19b.html" class="citation-image" aria-label="Zeno: Distributed stochastic gradient descent with suspicion-based fault-tolerance">
+      <img src="" alt="Zeno: Distributed stochastic gradient descent with suspicion-based fault-tolerance" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="http://proceedings.mlr.press/v97/xie19b.html" class="citation-title">
+      Zeno: Distributed stochastic gradient descent with suspicion-based fault-tolerance
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Cong Xie, Sanmi Koyejo, Indranil Gupta
+    </div>
+
+    <div class="citation-details">
+      International conference on machine learning, 6893-6901, 2019
+        ·  
+      01 Jan 2019
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/1903.03934" class="citation-image" aria-label="Asynchronous federated optimization">
+      <img src="" alt="Asynchronous federated optimization" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/1903.03934" class="citation-title">
+      Asynchronous federated optimization
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Cong Xie, Sanmi Koyejo, Indranil Gupta
+    </div>
+
+    <div class="citation-details">
+      arXiv preprint arXiv:1903.03934, 2019
+        ·  
+      01 Jan 2019
+        ·  
+      arXiv:1903.03934
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<h3 id="2018">2018</h3>
+
+<div class="citation">
+  
+    <a href="https://doi.org/ckcj" class="citation-image" aria-label="Sci-Hub provides access to nearly all scholarly literature">
+      <img src="https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp" alt="Sci-Hub provides access to nearly all scholarly literature" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://doi.org/ckcj" class="citation-title">
+      Sci-Hub provides access to nearly all scholarly literature
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Daniel S Himmelstein, Ariel Rodriguez Romero, Jacob G Levernier, Thomas Anthony Munro, Stephen Reid McLaughlin, Bastian Greshake Tzovaras, Casey S Greene
+    </div>
+
+    <div class="citation-details">
+      eLife
+        ·  
+      01 Mar 2018
+        ·  
+      doi:10.7554/eLife.32822
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="http://proceedings.mlr.press/v84/andersen18a.html" class="citation-image" aria-label="Bayesian structure learning for dynamic brain connectivity">
+      <img src="" alt="Bayesian structure learning for dynamic brain connectivity" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="http://proceedings.mlr.press/v84/andersen18a.html" class="citation-title">
+      Bayesian structure learning for dynamic brain connectivity
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Michael Andersen, Ole Winther, Lars Kai Hansen, Russell Poldrack, Oluwasanmi Koyejo
+    </div>
+
+    <div class="citation-details">
+      International Conference on Artificial Intelligence and Statistics, 1436-1446, 2018
+        ·  
+      01 Jan 2018
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="http://proceedings.mlr.press/v80/yan18b.html" class="citation-image" aria-label="Binary classification with karmic, threshold-quasi-concave metrics">
+      <img src="" alt="Binary classification with karmic, threshold-quasi-concave metrics" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="http://proceedings.mlr.press/v80/yan18b.html" class="citation-title">
+      Binary classification with karmic, threshold-quasi-concave metrics
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Bowei Yan, Sanmi Koyejo, Kai Zhong, Pradeep Ravikumar
+    </div>
+
+    <div class="citation-details">
+      International Conference on Machine Learning, 5531-5540, 2018
+        ·  
+      01 Jan 2018
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/1806.08867" class="citation-image" aria-label="xgems: Generating examplars to explain black-box models">
+      <img src="" alt="xgems: Generating examplars to explain black-box models" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/1806.08867" class="citation-title">
+      xgems: Generating examplars to explain black-box models
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Shalmali Joshi, Oluwasanmi Koyejo, Been Kim, Joydeep Ghosh
+    </div>
+
+    <div class="citation-details">
+      arXiv preprint arXiv:1806.08867, 2018
+        ·  
+      01 Jan 2018
+        ·  
+      arXiv:1806.08867
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://www.researchgate.net/profile/Cong-Xie-13/publication/325396420_Zeno_Byzantine-suspicious_stochastic_gradient_descent/links/5b9f4fe1299bf13e6037cdf7/Zeno-Byzantine-suspicious-stochastic-gradient-descent.pdf" class="citation-image" aria-label="Zeno: Byzantine-suspicious stochastic gradient descent">
+      <img src="" alt="Zeno: Byzantine-suspicious stochastic gradient descent" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://www.researchgate.net/profile/Cong-Xie-13/publication/325396420_Zeno_Byzantine-suspicious_stochastic_gradient_descent/links/5b9f4fe1299bf13e6037cdf7/Zeno-Byzantine-suspicious-stochastic-gradient-descent.pdf" class="citation-title">
+      Zeno: Byzantine-suspicious stochastic gradient descent
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Cong Xie, Oluwasanmi Koyejo, Indranil Gupta
+    </div>
+
+    <div class="citation-details">
+      arXiv preprint arXiv:1805.10032 24, 2018
+        ·  
+      01 Jan 2018
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/1805.09682" class="citation-image" aria-label="Phocas: dimensional byzantine-resilient stochastic gradient descent">
+      <img src="" alt="Phocas: dimensional byzantine-resilient stochastic gradient descent" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/1805.09682" class="citation-title">
+      Phocas: dimensional byzantine-resilient stochastic gradient descent
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Cong Xie, Oluwasanmi Koyejo, Indranil Gupta
+    </div>
+
+    <div class="citation-details">
+      arXiv preprint arXiv:1805.09682, 2018
+        ·  
+      01 Jan 2018
+        ·  
+      arXiv:1805.09682
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://www.tandfonline.com/doi/abs/10.1080/01621459.2017.1319838" class="citation-image" aria-label="False discovery rate smoothing">
+      <img src="" alt="False discovery rate smoothing" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://www.tandfonline.com/doi/abs/10.1080/01621459.2017.1319838" class="citation-title">
+      False discovery rate smoothing
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Wesley Tansey, Oluwasanmi Koyejo, Russell A Poldrack, James G Scott
+    </div>
+
+    <div class="citation-details">
+      Journal of the American Statistical Association 113 (523), 1156-1171, 2018
+        ·  
+      01 Jan 2018
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/1802.10116" class="citation-image" aria-label="Generalized byzantine-tolerant sgd">
+      <img src="" alt="Generalized byzantine-tolerant sgd" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/1802.10116" class="citation-title">
+      Generalized byzantine-tolerant sgd
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Cong Xie, Oluwasanmi Koyejo, Indranil Gupta
+    </div>
+
+    <div class="citation-details">
+      arXiv preprint arXiv:1802.10116, 2018
+        ·  
+      01 Jan 2018
+        ·  
+      arXiv:1802.10116
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<h3 id="2017">2017</h3>
+
+<div class="citation">
+  
+    <a href="https://www.sciencedirect.com/science/article/pii/S1053811916306401" class="citation-image" aria-label="What's in a pattern? Examining the type of signal multivariate analysis uncovers at the group level">
+      <img src="" alt="What's in a pattern? Examining the type of signal multivariate analysis uncovers at the group level" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://www.sciencedirect.com/science/article/pii/S1053811916306401" class="citation-title">
+      What's in a pattern? Examining the type of signal multivariate analysis uncovers at the group level
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Roee Gilron, Jonathan Rosenblatt, Oluwasanmi Koyejo, Russell A Poldrack, Roy Mukamel
+    </div>
+
+    <div class="citation-details">
+      NeuroImage 146, 113-120, 2017
+        ·  
+      01 Jan 2017
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://proceedings.mlr.press/v70/dembczynski17a.html" class="citation-image" aria-label="Consistency analysis for binary classification revisited">
+      <img src="" alt="Consistency analysis for binary classification revisited" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://proceedings.mlr.press/v70/dembczynski17a.html" class="citation-title">
+      Consistency analysis for binary classification revisited
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Krzysztof Dembczyński, Wojciech Kotłowski, Oluwasanmi Koyejo, Nagarajan Natarajan
+    </div>
+
+    <div class="citation-details">
+      International Conference on Machine Learning, 961-969, 2017
+        ·  
+      01 Jan 2017
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<h3 id="2016">2016</h3>
+
+<div class="citation">
+  
+    <a href="http://proceedings.mlr.press/v48/asteris16.html" class="citation-image" aria-label="A simple and provable algorithm for sparse diagonal CCA">
+      <img src="" alt="A simple and provable algorithm for sparse diagonal CCA" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="http://proceedings.mlr.press/v48/asteris16.html" class="citation-title">
+      A simple and provable algorithm for sparse diagonal CCA
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Megasthenis Asteris, Anastasios Kyrillidis, Oluwasanmi Koyejo, Russell Poldrack
+    </div>
+
+    <div class="citation-details">
+      International conference on machine learning, 1148-1157, 2016
+        ·  
+      01 Jan 2016
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://osf.io/wsnjb/resources" class="citation-image" aria-label="MRIQC: predicting quality in manual MRI assessment protocols using no-reference image quality measures.">
+      <img src="" alt="MRIQC: predicting quality in manual MRI assessment protocols using no-reference image quality measures." loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://osf.io/wsnjb/resources" class="citation-title">
+      MRIQC: predicting quality in manual MRI assessment protocols using no-reference image quality measures.
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Oscar Esteban, Chris Gorgolewski, Sanmi Koyejo, Russell Poldrack
+    </div>
+
+    <div class="citation-details">
+      OSF, 2016
+        ·  
+      01 Jan 2016
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://www.cell.com/neuron/fulltext/S0896-62731630577-3" class="citation-image" aria-label="The dynamics of functional brain networks: integrated network states during cognitive task performance">
+      <img src="" alt="The dynamics of functional brain networks: integrated network states during cognitive task performance" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://www.cell.com/neuron/fulltext/S0896-62731630577-3" class="citation-title">
+      The dynamics of functional brain networks: integrated network states during cognitive task performance
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      James M Shine, Patrick G Bissett, Peter T Bell, Oluwasanmi Koyejo, Joshua H Balsters, Krzysztof J Gorgolewski, Craig A Moodie, Russell A Poldrack
+    </div>
+
+    <div class="citation-details">
+      Neuron 92 (2), 544-554, 2016
+        ·  
+      01 Jan 2016
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://proceedings.neurips.cc/paper/2016/hash/5680522b8e2bb01943234bce7bf84534-Abstract.html?ref=https://githubhelp.com" class="citation-image" aria-label="Examples are not enough, learn to criticize! criticism for interpretability">
+      <img src="" alt="Examples are not enough, learn to criticize! criticism for interpretability" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://proceedings.neurips.cc/paper/2016/hash/5680522b8e2bb01943234bce7bf84534-Abstract.html?ref=https://githubhelp.com" class="citation-title">
+      Examples are not enough, learn to criticize! criticism for interpretability
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Been Kim, Rajiv Khanna, Oluwasanmi O Koyejo
+    </div>
+
+    <div class="citation-details">
+      Advances in Neural Information Processing Systems, 2280-2288, 2016
+        ·  
+      01 Jan 2016
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<h3 id="2015">2015</h3>
+
+<div class="citation">
+  
+    <a href="http://proceedings.mlr.press/v38/bhowmik15.html" class="citation-image" aria-label="Generalized linear models for aggregated data">
+      <img src="" alt="Generalized linear models for aggregated data" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="http://proceedings.mlr.press/v38/bhowmik15.html" class="citation-title">
+      Generalized linear models for aggregated data
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Avradeep Bhowmik, Joydeep Ghosh, Oluwasanmi Koyejo
+    </div>
+
+    <div class="citation-details">
+      Artificial Intelligence and Statistics, 93-101, 2015
+        ·  
+      01 Jan 2015
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://www.sciencedirect.com/science/article/pii/S1053811915006849" class="citation-image" aria-label="Estimation of dynamic functional connectivity using Multiplication of Temporal Derivatives">
+      <img src="" alt="Estimation of dynamic functional connectivity using Multiplication of Temporal Derivatives" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://www.sciencedirect.com/science/article/pii/S1053811915006849" class="citation-title">
+      Estimation of dynamic functional connectivity using Multiplication of Temporal Derivatives
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      James M Shine, Oluwasanmi Koyejo, Peter T Bell, Krzysztof J Gorgolewski, Moran Gilat, Russell A Poldrack
+    </div>
+
+    <div class="citation-details">
+      NeuroImage 122, 399-407, 2015
+        ·  
+      01 Jan 2015
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<h3 id="2014">2014</h3>
+
+<div class="citation">
+  
+    <a href="https://proceedings.neurips.cc/paper_files/paper/2014/hash/98053046e0dce5c7d946c67b96a85e18-Abstract.html" class="citation-image" aria-label="Consistent binary classification with generalized performance metrics">
+      <img src="" alt="Consistent binary classification with generalized performance metrics" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://proceedings.neurips.cc/paper_files/paper/2014/hash/98053046e0dce5c7d946c67b96a85e18-Abstract.html" class="citation-title">
+      Consistent binary classification with generalized performance metrics
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Oluwasanmi Koyejo, Nagarajan Natarajan, Pradeep Ravikumar, Inderjit S Dhillon
+    </div>
+
+    <div class="citation-details">
+      Advances in neural information processing systems 27, 2014
+        ·  
+      01 Jan 2014
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<h3 id="2013">2013</h3>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/1309.6840" class="citation-image" aria-label="Constrained Bayesian inference for low rank multitask learning">
+      <img src="" alt="Constrained Bayesian inference for low rank multitask learning" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/1309.6840" class="citation-title">
+      Constrained Bayesian inference for low rank multitask learning
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Oluwasanmi Koyejo, Joydeep Ghosh
+    </div>
+
+    <div class="citation-details">
+      arXiv preprint arXiv:1309.6840, 2013
+        ·  
+      01 Jan 2013
+        ·  
+      arXiv:1309.6840
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://dl.acm.org/doi/abs/10.1145/2507157.2507185" class="citation-image" aria-label="Retargeted matrix factorization for collaborative filtering">
+      <img src="" alt="Retargeted matrix factorization for collaborative filtering" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://dl.acm.org/doi/abs/10.1145/2507157.2507185" class="citation-title">
+      Retargeted matrix factorization for collaborative filtering
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Oluwasanmi Koyejo, Sreangsu Acharyya, Joydeep Ghosh
+    </div>
+
+    <div class="citation-details">
+      Proceedings of the 7th ACM conference on Recommender systems, 49-56, 2013
+        ·  
+      01 Jan 2013
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<div class="citation">
+  
+    <a href="https://www.frontiersin.org/journals/neuroinformatics/articles/10.3389/fninf.2013.00012/full" class="citation-image" aria-label="Toward open sharing of task-based fMRI data: the OpenfMRI project">
+      <img src="" alt="Toward open sharing of task-based fMRI data: the OpenfMRI project" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://www.frontiersin.org/journals/neuroinformatics/articles/10.3389/fninf.2013.00012/full" class="citation-title">
+      Toward open sharing of task-based fMRI data: the OpenfMRI project
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Russell A Poldrack, Deanna M Barch, Jason P Mitchell, Tor D Wager, Anthony D Wagner, Joseph T Devlin, Chad Cumba, Oluwasanmi Koyejo, Michael P Milham
+    </div>
+
+    <div class="citation-details">
+      Frontiers in neuroinformatics 7, 12, 2013
+        ·  
+      01 Jan 2013
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<h3 id="2012">2012</h3>
+
+<div class="citation">
+  
+    <a href="https://arxiv.org/abs/1210.4851" class="citation-image" aria-label="Learning to rank with Bregman divergences and monotone retargeting">
+      <img src="" alt="Learning to rank with Bregman divergences and monotone retargeting" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://arxiv.org/abs/1210.4851" class="citation-title">
+      Learning to rank with Bregman divergences and monotone retargeting
+    </a>
+
+    <div class="citation-authors" tabindex="0">
+      Sreangsu Acharyya, Oluwasanmi Koyejo, Joydeep Ghosh
+    </div>
+
+    <div class="citation-details">
+      arXiv preprint arXiv:1210.4851, 2012
+        ·  
+      01 Jan 2012
+        ·  
+      arXiv:1210.4851
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<h3 id="1912">1912</h3>
+
+<div class="citation">
+  
+    <a href="https://scholar.google.com/scholar?cluster=7296365711173235748&hl=en&oi=scholarr" class="citation-image" aria-label="Advances and open problems in federated learning. arXiv 2019">
+      <img src="" alt="Advances and open problems in federated learning. arXiv 2019" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://scholar.google.com/scholar?cluster=7296365711173235748&hl=en&oi=scholarr" class="citation-title">
+      Advances and open problems in federated learning. arXiv 2019
+    </a>
+
+    <div class="citation-authors" data-tooltip="Peter Kairouz, H Brendan McMahan, Brendan Avent, Aurélien Bellet, Mehdi Bennis, Arjun Nitin Bhagoji, Keith Bonawitz, Zachary Charles, Graham Cormode, Rachel Cummings, Rafael GL D’Oliveira, Salim El Rouayheb, David Evans, Josh Gardner, Zachary Garrett, Adrià Gascón, Badih Ghazi, Phillip B Gibbons, Marco Gruteser, Zaid Harchaoui, Chaoyang He, Lie He, Zhouyuan Huo, Ben Hutchinson, Justin Hsu, Martin Jaggi, Tara Javidi, Gauri Joshi, Mikhail Khodak, Jakub Konečný, Aleksandra Korolova, Farinaz Koushanfar, Sanmi Koyejo, Tancrède Lepoint, Yang Liu, Prateek Mittal, Mehryar Mohri, Richard Nock, Ayfer Özgür, Rasmus Pagh, Mariana Raykova, Hang Qi, Daniel Ramage, Ramesh Raskar, Dawn Song, Weikang Song, Sebastian U Stich, Ziteng Sun, Ananda Theertha Suresh, Florian Tramèr, Praneeth Vepakomma, Jianyu Wang, Li Xiong, Zheng Xu, Qiang Yang, Felix X Yu, Han Yu, Sen Zhao " tabindex="0">
+      Peter Kairouz, H Brendan McMahan, Brendan Avent, Aurélien Bellet, Mehdi Bennis, ..., Zheng Xu, Qiang Yang, Felix X Yu, Han Yu, Sen Zhao
+    </div>
+
+    <div class="citation-details">
+      arXiv preprint arXiv:1912.04977, 1912
+        ·  
+      01 Jan 1912
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+
+<h3></h3>
+
+<div class="citation">
+  
+    <a href="https://scholar.google.com/scholar?cluster=841734434159980746&hl=en&oi=scholarr" class="citation-image" aria-label="others. 2023. Representation engineering: A top-down approach to ai transparency">
+      <img src="" alt="others. 2023. Representation engineering: A top-down approach to ai transparency" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
+
+  <div class="citation-text">
+    
+    
+
+    <a href="https://scholar.google.com/scholar?cluster=841734434159980746&hl=en&oi=scholarr" class="citation-title">
+      others. 2023. Representation engineering: A top-down approach to ai transparency
+    </a>
+
+    <div class="citation-authors" data-tooltip="Andy Zou, Long Phan, Sarah Chen, James Campbell, Phillip Guo, Richard Ren, Alexander Pan, Xuwang Yin, Mantas Mazeika, Ann-Kathrin Dombrowski, Shashwat Goel, Nathaniel Li, Michael J Byun, Zifan Wang, Alex Mallen, Steven Basart, Sanmi Koyejo, Dawn Song, Matt Fredrikson " tabindex="0">
+      Andy Zou, Long Phan, Sarah Chen, James Campbell, Phillip Guo, ..., Alex Mallen, Steven Basart, Sanmi Koyejo, Dawn Song, Matt Fredrikson
+    </div>
+
+    <div class="citation-details">
+      arXiv preprint arXiv:2310.01405, 1
+        ·  
+      [no date info]
+        ·  
+      [no id info]
+    </div>
+
+    
+      
+
+      
+
+      
+    
+  </div>
+</div>
+  </section>
+
+
+    </main>
+    
+
+
+<footer class="background" style="--image: url('/images/background.jpg')" data-dark="true" data-size="wide">
+  <!--
+    <div>
+      Extra details like contact info or address
+    </div>
+  -->
+
+  <div>
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/stair-lab" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://twitter.com/stai_research" data-tooltip="Twitter" data-style="bare" aria-label="Twitter">
+      <i class="icon fa-brands fa-twitter"></i>
+      
+    </a>
+  </div>
+
+
+    
+  </div>
+
+  <div>
+    © 2026
+    Stanford Trustworthy AI Research
+       
+    <a href="https://github.com/greenelab/lab-website-template">
+    </a>
+  </div>
+
+  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+</footer>
+
+  </body>
+</html>

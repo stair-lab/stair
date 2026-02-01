@@ -1,0 +1,17 @@
+a {
+  color: var(--primary);
+  transition-property: color;
+  overflow-wrap: break-word;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  color: var(--text);
+}
+
+a:not([href]) {
+  color: var(--text);
+}
+
+/*# sourceMappingURL=link.css.map */
